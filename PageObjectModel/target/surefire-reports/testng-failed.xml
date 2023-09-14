@@ -4,16 +4,6 @@
   <listeners>
     <listener class-name="extentlisteners.ExtentListeners"/>
   </listeners>
-  <test thread-count="5" name="Find New Cars Test(failed)" verbose="0">
-    <classes>
-      <class name="testcases.FindNewCarsTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="findNewCarTest" invocation-numbers="1"/>
-        </methods>
-      </class> <!-- testcases.FindNewCarsTest -->
-    </classes>
-  </test> <!-- Find New Cars Test(failed) -->
   <test thread-count="5" name="Car Name and Price Test(failed)" verbose="0">
     <classes>
       <class name="testcases.CarNameAndPriceTest">
