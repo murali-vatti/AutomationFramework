@@ -1,7 +1,7 @@
-INFO    2023-09-14 17:27:57,373 [main] com.brainzhive.base.BaseTest  - Test Execution started !!!
-INFO    2023-09-14 17:27:57,375 [main] com.brainzhive.base.BaseTest  - Config properties file loaded !!!
-INFO    2023-09-14 17:27:57,375 [main] com.brainzhive.base.BaseTest  - OR properties file loaded !!!
-INFO    2023-09-14 17:28:04,594 [main] com.brainzhive.base.BaseTest  - Edge browser launched
-INFO    2023-09-14 17:28:05,484 [main] com.brainzhive.base.BaseTest  - Navigated to : https://www.way2automation.com/angularjs-protractor/banking/#/login
-INFO    2023-09-14 17:28:05,899 [main] com.brainzhive.base.BaseTest  - Database connection established !!!
-INFO    2023-09-14 17:28:16,412 [main] com.brainzhive.base.BaseTest  - Test execution completed !!!
+INFO    2023-09-14 17:59:04,472 [main] com.brainzhive.base.BaseTest  - Test Execution started !!!
+INFO    2023-09-14 17:59:04,474 [main] com.brainzhive.base.BaseTest  - Config properties file loaded !!!
+INFO    2023-09-14 17:59:04,474 [main] com.brainzhive.base.BaseTest  - OR properties file loaded !!!
+INFO    2023-09-14 17:59:11,184 [main] com.brainzhive.base.BaseTest  - Edge browser launched
+INFO    2023-09-14 17:59:12,187 [main] com.brainzhive.base.BaseTest  - Navigated to : https://www.way2automation.com/angularjs-protractor/banking/#/login
+INFO    2023-09-14 17:59:12,644 [main] com.brainzhive.base.BaseTest  - Database connection established !!!
+INFO    2023-09-14 17:59:22,839 [main] com.brainzhive.base.BaseTest  - Test execution completed !!!
