@@ -1,0 +1,487 @@
+!SESSION 2023-09-13 14:19:21.389 -----------------------------------------------
+eclipse.buildId=4.28.0.20230608-1200
+java.version=17.0.8
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+This is a continuation of log file D:\AutomationFramework\.metadata\.bak_0.log
+Created Time: 2023-09-13 14:19:50.181
+
+!ENTRY org.eclipse.jface 2 0 2023-09-13 14:19:50.181
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-09-13 14:19:50.181
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-09-13 14:19:58.160
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\DELL'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2023-09-13 14:22:12.864 -----------------------------------------------
+eclipse.buildId=4.28.0.20230608-1200
+java.version=17.0.8
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.emf.ecore 2 0 2023-09-13 14:22:14.998
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY ch.qos.logback.classic 1 0 2023-09-13 14:22:15.202
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2023-09-13 14:22:19.870
+!MESSAGE Logback config file: D:\AutomationFramework\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.1.200.20230523-2106.xml
+
+!ENTRY org.eclipse.e4.ui.css.swt.theme 4 0 2023-09-13 14:22:23.398
+!MESSAGE /css/gef_dark.css
+!STACK 0
+java.io.FileNotFoundException: /css/gef_dark.css
+	at org.eclipse.osgi.storage.url.bundleentry.Handler.findBundleEntry(Handler.java:55)
+	at org.eclipse.osgi.storage.url.BundleResourceHandler.openConnection(BundleResourceHandler.java:182)
+	at java.base/java.net.URL.openConnection(URL.java:1094)
+	at org.eclipse.osgi.storage.url.BundleURLConverter.resolve(BundleURLConverter.java:55)
+	at org.eclipse.core.runtime.FileLocator.resolve(FileLocator.java:288)
+	at org.eclipse.core.internal.runtime.PlatformURLConverter.resolve(PlatformURLConverter.java:53)
+	at org.eclipse.core.runtime.FileLocator.resolve(FileLocator.java:288)
+	at org.eclipse.e4.ui.css.swt.internal.theme.ThemeEngine.setTheme(ThemeEngine.java:468)
+	at org.eclipse.e4.ui.css.swt.internal.theme.ThemeEngine.setTheme(ThemeEngine.java:436)
+	at org.eclipse.e4.ui.css.swt.internal.theme.ThemeEngine.setTheme(ThemeEngine.java:428)
+	at org.eclipse.e4.ui.css.swt.internal.theme.ThemeEngine.restore(ThemeEngine.java:624)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.setCSSTheme(PartRenderingEngine.java:1417)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.initializeStyling(PartRenderingEngine.java:1324)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1050)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.jface 2 0 2023-09-13 14:22:24.258
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-09-13 14:22:24.258
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-09-13 14:22:30.241
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\DELL'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-09-13 14:23:26.685
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-09-13 14:23:26.705
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-09-13 14:23:28.258
+!MESSAGE The POM for org.testng:testng:jar:5.14.3 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-09-13 14:23:28.261
+!MESSAGE The POM for org.testng:testng:jar:5.14.4 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-09-13 14:23:28.265
+!MESSAGE The POM for org.testng:testng:jar:5.14.5 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-09-13 14:23:28.462
+!MESSAGE The POM for com.beust:jcommander:jar:1.66 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-09-13 14:23:29.031
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-09-13 14:23:29.036
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-09-13 14:23:29.232
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-09-13 14:23:29.236
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-09-13 14:25:54.319
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-09-13 14:25:54.321
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-09-13 14:25:54.324
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-09-13 14:25:54.327
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-09-13 14:25:54.340
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-09-13 14:25:54.348
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.testng.eclipse 1 0 2023-09-13 14:26:30.949
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\configuration\org.eclipse.osgi\1000\0\.cp\lib\testng-remote.jar D:\AutomationFramework\DataDriven\target\test-classes D:\AutomationFramework\DataDriven\target\classes C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-java\4.12.1\selenium-java-4.12.1.jar C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-api\4.12.1\selenium-api-4.12.1.jar C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.12.1\selenium-chrome-driver-4.12.1.jar C:\Users\DELL\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar C:\Users\DELL\.m2\repository\com\google\guava\guava\32.1.2-jre\guava-32.1.2-jre.jar C:\Users\DELL\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar C:\Users\DELL\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar C:\Users\DELL\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar C:\Users\DELL\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar C:\Users\DELL\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar C:\Users\DELL\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.12.1\selenium-chromium-driver-4.12.1.jar C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-json\4.12.1\selenium-json-4.12.1.jar C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.12.1\selenium-manager-4.12.1.jar C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v114\4.12.1\selenium-devtools-v114-4.12.1.jar C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v115\4.12.1\selenium-devtools-v115-4.12.1.jar C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v116\4.12.1\selenium-devtools-v116-4.12.1.jar C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.12.1\selenium-devtools-v85-4.12.1.jar C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.12.1\selenium-edge-driver-4.12.1.jar C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.12.1\selenium-firefox-driver-4.12.1.jar C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-http\4.12.1\selenium-http-4.12.1.jar C:\Users\DELL\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.12.1\selenium-ie-driver-4.12.1.jar C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.12.1\selenium-remote-driver-4.12.1.jar C:\Users\DELL\.m2\repository\io\netty\netty-buffer\4.1.96.Final\netty-buffer-4.1.96.Final.jar C:\Users\DELL\.m2\repository\io\netty\netty-codec-http\4.1.96.Final\netty-codec-http-4.1.96.Final.jar C:\Users\DELL\.m2\repository\io\netty\netty-codec\4.1.96.Final\netty-codec-4.1.96.Final.jar C:\Users\DELL\.m2\repository\io\netty\netty-handler\4.1.96.Final\netty-handler-4.1.96.Final.jar C:\Users\DELL\.m2\repository\io\netty\netty-common\4.1.96.Final\netty-common-4.1.96.Final.jar C:\Users\DELL\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.96.Final\netty-transport-classes-epoll-4.1.96.Final.jar C:\Users\DELL\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.96.Final\netty-transport-classes-kqueue-4.1.96.Final.jar C:\Users\DELL\.m2\repository\io\netty\netty-transport-native-epoll\4.1.96.Final\netty-transport-native-epoll-4.1.96.Final.jar C:\Users\DELL\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.96.Final\netty-transport-native-kqueue-4.1.96.Final.jar C:\Users\DELL\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.96.Final\netty-transport-native-unix-common-4.1.96.Final.jar C:\Users\DELL\.m2\repository\io\netty\netty-transport\4.1.96.Final\netty-transport-4.1.96.Final.jar C:\Users\DELL\.m2\repository\io\netty\netty-resolver\4.1.96.Final\netty-resolver-4.1.96.Final.jar C:\Users\DELL\.m2\repository\io\opentelemetry\opentelemetry-api\1.28.0\opentelemetry-api-1.28.0.jar C:\Users\DELL\.m2\repository\io\opentelemetry\opentelemetry-context\1.28.0\opentelemetry-context-1.28.0.jar C:\Users\DELL\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.28.0\opentelemetry-exporter-logging-1.28.0.jar C:\Users\DELL\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.28.0\opentelemetry-sdk-metrics-1.28.0.jar C:\Users\DELL\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.28.0-alpha\opentelemetry-extension-incubator-1.28.0-alpha.jar C:\Users\DELL\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.28.0\opentelemetry-sdk-logs-1.28.0.jar C:\Users\DELL\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.28.0\opentelemetry-sdk-common-1.28.0.jar C:\Users\DELL\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.28.0\opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar C:\Users\DELL\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.28.0\opentelemetry-sdk-extension-autoconfigure-1.28.0.jar C:\Users\DELL\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.28.0-alpha\opentelemetry-api-events-1.28.0-alpha.jar C:\Users\DELL\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.28.0\opentelemetry-sdk-trace-1.28.0.jar C:\Users\DELL\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.28.0\opentelemetry-sdk-1.28.0.jar C:\Users\DELL\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar C:\Users\DELL\.m2\repository\net\bytebuddy\byte-buddy\1.14.5\byte-buddy-1.14.5.jar C:\Users\DELL\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar C:\Users\DELL\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar C:\Users\DELL\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar C:\Users\DELL\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar C:\Users\DELL\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar C:\Users\DELL\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar C:\Users\DELL\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar C:\Users\DELL\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-os\4.12.1\selenium-os-4.12.1.jar C:\Users\DELL\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.12.1\selenium-safari-driver-4.12.1.jar C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-support\4.12.1\selenium-support-4.12.1.jar C:\Users\DELL\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar C:\Users\DELL\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar C:\Users\DELL\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar C:\Users\DELL\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar C:\Users\DELL\.m2\repository\com\sun\mail\javax.mail\1.6.2\javax.mail-1.6.2.jar C:\Users\DELL\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar C:\Users\DELL\.m2\repository\com\mysql\mysql-connector-j\8.0.33\mysql-connector-j-8.0.33.jar C:\Users\DELL\.m2\repository\com\google\protobuf\protobuf-java\3.21.9\protobuf-java-3.21.9.jar C:\Users\DELL\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar C:\Users\DELL\.m2\repository\org\apache\poi\poi\4.1.1\poi-4.1.1.jar C:\Users\DELL\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar C:\Users\DELL\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar C:\Users\DELL\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar C:\Users\DELL\.m2\repository\org\apache\poi\poi-ooxml\4.1.1\poi-ooxml-4.1.1.jar C:\Users\DELL\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar C:\Users\DELL\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar C:\Users\DELL\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar C:\Users\DELL\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar C:\Users\DELL\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar C:\Users\DELL\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.1\poi-ooxml-schemas-4.1.1.jar C:\Users\DELL\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar C:\Users\DELL\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar C:\Users\DELL\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar C:\Users\DELL\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar C:\Users\DELL\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar C:\Users\DELL\.m2\repository\commons-io\commons-io\2.12.0\commons-io-2.12.0.jar C:\Users\DELL\.m2\repository\org\projectlombok\lombok\1.18.24\lombok-1.18.24.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 61831 -protocol json -d D:\AutomationFramework\DataDriven\test-output D:\AutomationFramework\DataDriven\src\test\resources\runner\testng.xml
+java -ea -classpath D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\configuration\org.eclipse.osgi\1000\0\.cp\lib\testng-remote.jar:D:\AutomationFramework\DataDriven\target\test-classes:D:\AutomationFramework\DataDriven\target\classes:C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-java\4.12.1\selenium-java-4.12.1.jar:C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-api\4.12.1\selenium-api-4.12.1.jar:C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.12.1\selenium-chrome-driver-4.12.1.jar:C:\Users\DELL\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar:C:\Users\DELL\.m2\repository\com\google\guava\guava\32.1.2-jre\guava-32.1.2-jre.jar:C:\Users\DELL\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar:C:\Users\DELL\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:C:\Users\DELL\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar:C:\Users\DELL\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar:C:\Users\DELL\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar:C:\Users\DELL\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar:C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.12.1\selenium-chromium-driver-4.12.1.jar:C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-json\4.12.1\selenium-json-4.12.1.jar:C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.12.1\selenium-manager-4.12.1.jar:C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v114\4.12.1\selenium-devtools-v114-4.12.1.jar:C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v115\4.12.1\selenium-devtools-v115-4.12.1.jar:C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v116\4.12.1\selenium-devtools-v116-4.12.1.jar:C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.12.1\selenium-devtools-v85-4.12.1.jar:C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.12.1\selenium-edge-driver-4.12.1.jar:C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.12.1\selenium-firefox-driver-4.12.1.jar:C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-http\4.12.1\selenium-http-4.12.1.jar:C:\Users\DELL\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar:C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.12.1\selenium-ie-driver-4.12.1.jar:C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.12.1\selenium-remote-driver-4.12.1.jar:C:\Users\DELL\.m2\repository\io\netty\netty-buffer\4.1.96.Final\netty-buffer-4.1.96.Final.jar:C:\Users\DELL\.m2\repository\io\netty\netty-codec-http\4.1.96.Final\netty-codec-http-4.1.96.Final.jar:C:\Users\DELL\.m2\repository\io\netty\netty-codec\4.1.96.Final\netty-codec-4.1.96.Final.jar:C:\Users\DELL\.m2\repository\io\netty\netty-handler\4.1.96.Final\netty-handler-4.1.96.Final.jar:C:\Users\DELL\.m2\repository\io\netty\netty-common\4.1.96.Final\netty-common-4.1.96.Final.jar:C:\Users\DELL\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.96.Final\netty-transport-classes-epoll-4.1.96.Final.jar:C:\Users\DELL\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.96.Final\netty-transport-classes-kqueue-4.1.96.Final.jar:C:\Users\DELL\.m2\repository\io\netty\netty-transport-native-epoll\4.1.96.Final\netty-transport-native-epoll-4.1.96.Final.jar:C:\Users\DELL\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.96.Final\netty-transport-native-kqueue-4.1.96.Final.jar:C:\Users\DELL\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.96.Final\netty-transport-native-unix-common-4.1.96.Final.jar:C:\Users\DELL\.m2\repository\io\netty\netty-transport\4.1.96.Final\netty-transport-4.1.96.Final.jar:C:\Users\DELL\.m2\repository\io\netty\netty-resolver\4.1.96.Final\netty-resolver-4.1.96.Final.jar:C:\Users\DELL\.m2\repository\io\opentelemetry\opentelemetry-api\1.28.0\opentelemetry-api-1.28.0.jar:C:\Users\DELL\.m2\repository\io\opentelemetry\opentelemetry-context\1.28.0\opentelemetry-context-1.28.0.jar:C:\Users\DELL\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.28.0\opentelemetry-exporter-logging-1.28.0.jar:C:\Users\DELL\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.28.0\opentelemetry-sdk-metrics-1.28.0.jar:C:\Users\DELL\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.28.0-alpha\opentelemetry-extension-incubator-1.28.0-alpha.jar:C:\Users\DELL\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.28.0\opentelemetry-sdk-logs-1.28.0.jar:C:\Users\DELL\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.28.0\opentelemetry-sdk-common-1.28.0.jar:C:\Users\DELL\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.28.0\opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar:C:\Users\DELL\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.28.0\opentelemetry-sdk-extension-autoconfigure-1.28.0.jar:C:\Users\DELL\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.28.0-alpha\opentelemetry-api-events-1.28.0-alpha.jar:C:\Users\DELL\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.28.0\opentelemetry-sdk-trace-1.28.0.jar:C:\Users\DELL\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.28.0\opentelemetry-sdk-1.28.0.jar:C:\Users\DELL\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar:C:\Users\DELL\.m2\repository\net\bytebuddy\byte-buddy\1.14.5\byte-buddy-1.14.5.jar:C:\Users\DELL\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar:C:\Users\DELL\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar:C:\Users\DELL\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar:C:\Users\DELL\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar:C:\Users\DELL\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar:C:\Users\DELL\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar:C:\Users\DELL\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar:C:\Users\DELL\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar:C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-os\4.12.1\selenium-os-4.12.1.jar:C:\Users\DELL\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar:C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.12.1\selenium-safari-driver-4.12.1.jar:C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-support\4.12.1\selenium-support-4.12.1.jar:C:\Users\DELL\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar:C:\Users\DELL\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar:C:\Users\DELL\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar:C:\Users\DELL\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar:C:\Users\DELL\.m2\repository\com\sun\mail\javax.mail\1.6.2\javax.mail-1.6.2.jar:C:\Users\DELL\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar:C:\Users\DELL\.m2\repository\com\mysql\mysql-connector-j\8.0.33\mysql-connector-j-8.0.33.jar:C:\Users\DELL\.m2\repository\com\google\protobuf\protobuf-java\3.21.9\protobuf-java-3.21.9.jar:C:\Users\DELL\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar:C:\Users\DELL\.m2\repository\org\apache\poi\poi\4.1.1\poi-4.1.1.jar:C:\Users\DELL\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar:C:\Users\DELL\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar:C:\Users\DELL\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar:C:\Users\DELL\.m2\repository\org\apache\poi\poi-ooxml\4.1.1\poi-ooxml-4.1.1.jar:C:\Users\DELL\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar:C:\Users\DELL\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar:C:\Users\DELL\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar:C:\Users\DELL\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar:C:\Users\DELL\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar:C:\Users\DELL\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.1\poi-ooxml-schemas-4.1.1.jar:C:\Users\DELL\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar:C:\Users\DELL\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar:C:\Users\DELL\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar:C:\Users\DELL\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar:C:\Users\DELL\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar:C:\Users\DELL\.m2\repository\commons-io\commons-io\2.12.0\commons-io-2.12.0.jar:C:\Users\DELL\.m2\repository\org\projectlombok\lombok\1.18.24\lombok-1.18.24.jar org.testng.remote.RemoteTestNG -serport 61831 -protocol json -d D:\AutomationFramework\DataDriven\test-output D:\AutomationFramework\DataDriven\src\test\resources\runner\testng.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2023-09-13 14:29:48.996
+!MESSAGE Launch configuration GmailTest references non-existing project mailTest.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration GmailTest references non-existing project mailTest.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1856)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1733)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:64)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:50)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:524)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:412)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:410)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:436)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:135)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:851)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:1004)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:162)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:394)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:275)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:214)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2023-09-13 14:29:48.997
+!MESSAGE Launch configuration GmailTest references non-existing project mailTest.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2023-09-13 14:29:48.999
+!MESSAGE Launch configuration GmailTest references non-existing project mailTest.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration GmailTest references non-existing project mailTest.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1856)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1733)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:64)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:50)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:524)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:412)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:411)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:436)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:135)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:851)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:1004)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:162)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:394)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:275)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:214)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2023-09-13 14:29:48.999
+!MESSAGE Launch configuration GmailTest references non-existing project mailTest.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2023-09-13 14:29:49.004
+!MESSAGE Launch configuration GmailTest references non-existing project mailTest.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration GmailTest references non-existing project mailTest.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1856)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1733)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:64)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:50)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2147)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:377)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:259)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:229)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:187)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:412)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:436)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:135)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:851)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:1004)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:162)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:394)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:275)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:214)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2023-09-13 14:29:49.004
+!MESSAGE Launch configuration GmailTest references non-existing project mailTest.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-09-13 14:30:12.711
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-09-13 14:30:12.716
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+!SESSION 2023-09-13 14:40:53.033 -----------------------------------------------
+eclipse.buildId=4.28.0.20230608-1200
+java.version=17.0.8
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.emf.ecore 2 0 2023-09-13 14:40:55.529
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY ch.qos.logback.classic 1 0 2023-09-13 14:40:55.773
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2023-09-13 14:41:02.985
+!MESSAGE Logback config file: D:\AutomationFramework\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.1.200.20230523-2106.xml
+
+!ENTRY org.eclipse.e4.ui.css.swt.theme 4 0 2023-09-13 14:41:07.211
+!MESSAGE /css/gef_dark.css
+!STACK 0
+java.io.FileNotFoundException: /css/gef_dark.css
+	at org.eclipse.osgi.storage.url.bundleentry.Handler.findBundleEntry(Handler.java:55)
+	at org.eclipse.osgi.storage.url.BundleResourceHandler.openConnection(BundleResourceHandler.java:182)
+	at java.base/java.net.URL.openConnection(URL.java:1094)
+	at org.eclipse.osgi.storage.url.BundleURLConverter.resolve(BundleURLConverter.java:55)
+	at org.eclipse.core.runtime.FileLocator.resolve(FileLocator.java:288)
+	at org.eclipse.core.internal.runtime.PlatformURLConverter.resolve(PlatformURLConverter.java:53)
+	at org.eclipse.core.runtime.FileLocator.resolve(FileLocator.java:288)
+	at org.eclipse.e4.ui.css.swt.internal.theme.ThemeEngine.setTheme(ThemeEngine.java:468)
+	at org.eclipse.e4.ui.css.swt.internal.theme.ThemeEngine.setTheme(ThemeEngine.java:436)
+	at org.eclipse.e4.ui.css.swt.internal.theme.ThemeEngine.setTheme(ThemeEngine.java:428)
+	at org.eclipse.e4.ui.css.swt.internal.theme.ThemeEngine.restore(ThemeEngine.java:624)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.setCSSTheme(PartRenderingEngine.java:1417)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.initializeStyling(PartRenderingEngine.java:1324)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1050)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.jface 2 0 2023-09-13 14:41:08.078
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-09-13 14:41:08.079
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-09-13 14:41:14.556
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\DELL'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2023-09-13 15:13:20.851 -----------------------------------------------
+eclipse.buildId=4.28.0.20230608-1200
+java.version=17.0.8
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.emf.ecore 2 0 2023-09-13 15:13:23.433
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY ch.qos.logback.classic 1 0 2023-09-13 15:13:23.714
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2023-09-13 15:13:31.333
+!MESSAGE Logback config file: D:\AutomationFramework\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.1.200.20230523-2106.xml
+
+!ENTRY org.eclipse.e4.ui.css.swt.theme 4 0 2023-09-13 15:13:36.305
+!MESSAGE /css/gef_dark.css
+!STACK 0
+java.io.FileNotFoundException: /css/gef_dark.css
+	at org.eclipse.osgi.storage.url.bundleentry.Handler.findBundleEntry(Handler.java:55)
+	at org.eclipse.osgi.storage.url.BundleResourceHandler.openConnection(BundleResourceHandler.java:182)
+	at java.base/java.net.URL.openConnection(URL.java:1094)
+	at org.eclipse.osgi.storage.url.BundleURLConverter.resolve(BundleURLConverter.java:55)
+	at org.eclipse.core.runtime.FileLocator.resolve(FileLocator.java:288)
+	at org.eclipse.core.internal.runtime.PlatformURLConverter.resolve(PlatformURLConverter.java:53)
+	at org.eclipse.core.runtime.FileLocator.resolve(FileLocator.java:288)
+	at org.eclipse.e4.ui.css.swt.internal.theme.ThemeEngine.setTheme(ThemeEngine.java:468)
+	at org.eclipse.e4.ui.css.swt.internal.theme.ThemeEngine.setTheme(ThemeEngine.java:436)
+	at org.eclipse.e4.ui.css.swt.internal.theme.ThemeEngine.setTheme(ThemeEngine.java:428)
+	at org.eclipse.e4.ui.css.swt.internal.theme.ThemeEngine.restore(ThemeEngine.java:624)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.setCSSTheme(PartRenderingEngine.java:1417)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.initializeStyling(PartRenderingEngine.java:1324)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1050)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.jface 2 0 2023-09-13 15:13:37.284
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-09-13 15:13:37.284
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-09-13 15:13:44.826
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\DELL'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-09-13 15:14:38.214
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-09-13 15:14:38.216
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-09-13 15:14:38.217
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-09-13 15:14:38.220
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-09-13 15:14:38.233
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-09-13 15:14:38.446
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-09-13 15:15:21.352
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-09-13 15:15:21.403
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-09-13 15:15:24.817
+!MESSAGE The POM for org.testng:testng:jar:5.14.3 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-09-13 15:15:24.824
+!MESSAGE The POM for org.testng:testng:jar:5.14.4 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-09-13 15:15:24.833
+!MESSAGE The POM for org.testng:testng:jar:5.14.5 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-09-13 15:15:25.185
+!MESSAGE The POM for com.beust:jcommander:jar:1.66 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-09-13 15:15:26.270
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-09-13 15:15:26.430
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-09-13 15:15:28.153
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-09-13 15:15:28.236
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-09-13 15:16:43.143
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-09-13 15:16:43.143
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!

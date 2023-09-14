@@ -1,0 +1,32 @@
+package com.brainzhive.testcases;
+
+ 
+import org.openqa.selenium.By;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+import com.brainzhive.base.BaseTest;
+
+public class BankManagerLoginTest extends BaseTest {
+
+	@Test
+	public void loginAsBankManager() {
+
+		click("bmlBtn_CSS");
+
+		String btnText = driver.findElement(By.cssSelector("addCustBtn_CSS")).getText();
+
+		Assert.assertTrue(isElementPresent("addCustBtn_CSS"), "Bank manager login failed");
+
+		try {
+			Assert.assertTrue(btnText.contentEquals("Add Custome"), "Add Customer button not available");
+
+		} catch (Throwable t) {
+			
+			Assert.fail();
+
+		}
+
+	}
+
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Data Drivern TestNG Framework">
+
+
+	<listeners>
+		<listener class-name="com.brainzhive.extentlisteners.ExtentListeners" />
+	
+	</listeners>
+
+
+
+	<test name="Bankmanager Login Test">
+		<classes>
+			<class name="com.brainzhive.testcases.Rough" />
+		</classes>
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->
