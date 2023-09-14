@@ -30,9 +30,9 @@
 		</classes>
 	</test> <!-- Test -->
 
-	<test name="Open Account Test">
+	<test name="OpenIRCTCTest Test">
 		<classes>
-			<class name="com.brainzhive.testcases.openIRCTCTest" />
+			<class name="com.brainzhive.testcases.OpeningBrowser" />
 		</classes>
 	</test> <!-- Test -->
 
