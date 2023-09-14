@@ -1,4 +1,0 @@
-testsiteurl=https://www.way2automation.com/angularjs-protractor/banking/#/login
-browser=edge
-implicit.wait=10
-explicit.wait=5

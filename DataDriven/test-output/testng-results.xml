@@ -1,112 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-13T14:26:44 IST" name="Data Drivern TestNG Framework" finished-at="2023-09-13T14:26:53 IST" duration-ms="9549">
+  <suite started-at="2023-09-14T20:51:16 IST" name="Default suite" finished-at="2023-09-14T20:51:21 IST" duration-ms="5158">
     <groups>
     </groups>
-    <test started-at="2023-09-13T14:26:44 IST" name="Bankmanager Login Test" finished-at="2023-09-13T14:26:44 IST" duration-ms="289">
-      <class name="com.brainzhive.testcases.BankManagerLoginTest">
-        <test-method signature="loginAsBankManager()[pri:0, instance:com.brainzhive.testcases.BankManagerLoginTest@402f80f5]" started-at="2023-09-13T14:26:44 IST" name="loginAsBankManager" finished-at="2023-09-13T14:26:44 IST" duration-ms="208" status="PASS">
+    <test started-at="2023-09-14T20:51:16 IST" name="Default test" finished-at="2023-09-14T20:51:21 IST" duration-ms="5158">
+      <class name="com.brainzhive.testcases.OpeningBrowser">
+        <test-method signature="openIRCTCTest()[pri:0, instance:com.brainzhive.testcases.OpeningBrowser@6c1a5b54]" started-at="2023-09-14T20:51:16 IST" name="openIRCTCTest" finished-at="2023-09-14T20:51:21 IST" duration-ms="5067" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginAsBankManager -->
-      </class> <!-- com.brainzhive.testcases.BankManagerLoginTest -->
-    </test> <!-- Bankmanager Login Test -->
-    <test started-at="2023-09-13T14:26:45 IST" name="Add Customer Test" finished-at="2023-09-13T14:26:50 IST" duration-ms="5522">
-      <class name="com.brainzhive.testcases.AddCustomerTest">
-        <test-method signature="addCustomer(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.brainzhive.testcases.AddCustomerTest@581d969c]" started-at="2023-09-13T14:26:45 IST" name="addCustomer" data-provider="data" finished-at="2023-09-13T14:26:47 IST" duration-ms="1829" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Muralidhar]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Vatti]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[A234234]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addCustomer -->
-        <test-method signature="addCustomer(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.brainzhive.testcases.AddCustomerTest@581d969c]" started-at="2023-09-13T14:26:47 IST" name="addCustomer" data-provider="data" finished-at="2023-09-13T14:26:49 IST" duration-ms="1888" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Mounish]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Vatti]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[S3424]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addCustomer -->
-        <test-method signature="addCustomer(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.brainzhive.testcases.AddCustomerTest@581d969c]" started-at="2023-09-13T14:26:49 IST" name="addCustomer" data-provider="data" finished-at="2023-09-13T14:26:50 IST" duration-ms="1580" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Vatti]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Murali]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[23343.0]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addCustomer -->
-      </class> <!-- com.brainzhive.testcases.AddCustomerTest -->
-    </test> <!-- Add Customer Test -->
-    <test started-at="2023-09-13T14:26:51 IST" name="Open Account Test" finished-at="2023-09-13T14:26:53 IST" duration-ms="2694">
-      <class name="com.brainzhive.testcases.OpenAccountTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.brainzhive.testcases.OpenAccountTest@29caf222]" started-at="2023-09-13T14:26:34 IST" name="setUp" finished-at="2023-09-13T14:26:44 IST" duration-ms="9400" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="openAccount(java.lang.String,java.lang.String)[pri:0, instance:com.brainzhive.testcases.OpenAccountTest@29caf222]" started-at="2023-09-13T14:26:51 IST" name="openAccount" data-provider="data" finished-at="2023-09-13T14:26:53 IST" duration-ms="2683" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Muralidhar Vatti]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Rupee]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openAccount -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.brainzhive.testcases.OpenAccountTest@29caf222]" started-at="2023-09-13T14:26:53 IST" name="tearDown" finished-at="2023-09-13T14:26:53 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.brainzhive.testcases.OpenAccountTest -->
-    </test> <!-- Open Account Test -->
-  </suite> <!-- Data Drivern TestNG Framework -->
+        </test-method> <!-- openIRCTCTest -->
+      </class> <!-- com.brainzhive.testcases.OpeningBrowser -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

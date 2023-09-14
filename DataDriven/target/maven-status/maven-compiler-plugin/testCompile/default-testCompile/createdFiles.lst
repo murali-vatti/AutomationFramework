@@ -1,10 +1,10 @@
 com\brainzhive\utilities\TestConfig.class
 com\brainzhive\extentlisteners\ExtentListeners.class
 com\brainzhive\utilities\ExcelReader.class
-com\brainzhive\testcases\Rough.class
 com\brainzhive\utilities\DbManager.class
 com\brainzhive\extentlisteners\ExtentManager.class
 com\brainzhive\testcases\BankManagerLoginTest.class
+com\brainzhive\testcases\OpeningBrowser.class
 com\brainzhive\utilities\MonitoringMail$SMTPAuthenticator.class
 com\brainzhive\testcases\OpenAccountTest.class
 com\brainzhive\utilities\DataUtil.class

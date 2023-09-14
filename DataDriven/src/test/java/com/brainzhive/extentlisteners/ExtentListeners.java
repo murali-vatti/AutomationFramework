@@ -122,7 +122,7 @@ public class ExtentListeners implements ITestListener, ISuiteListener {
 		}
 
 		// mailServer ,from, to, subject, messageBody, attachmentPath, attachmentName
-
+/*
 		try {
 			mail.sendMail(TestConfig.server, TestConfig.from, TestConfig.to, "Test Report", "Sample Bank Test report",
 					System.getProperty("user.dir") + "\\reports\\"+ExtentManager.fileName	, "Report.jpg");
@@ -133,6 +133,7 @@ public class ExtentListeners implements ITestListener, ISuiteListener {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+		*/
 		BaseTest.driver.close();
 	}
 

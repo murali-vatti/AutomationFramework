@@ -1,4 +1,5 @@
 utilities\MonitoringMail$SMTPAuthenticator.class
+rough\OpeningBrowser.class
 utilities\MonitoringMail.class
 utilities\ExcelReader.class
 rough\FindNewCarsTest.class
