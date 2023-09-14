@@ -10,12 +10,12 @@ public class OpeningBrowser {
 	public void openIRCTCTest() {
 	// TODO Auto-generated method stub
 		
+		// Sample test added
+		
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://www.irctc.co.in/");
-		
-		
-		
+			
 
 	}
 
