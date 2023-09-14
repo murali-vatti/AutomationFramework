@@ -30,4 +30,10 @@
 		</classes>
 	</test> <!-- Test -->
 
+	<test name="Open Account Test">
+		<classes>
+			<class name="com.brainzhive.testcases.openIRCTCTest" />
+		</classes>
+	</test> <!-- Test -->
+
 </suite> <!-- Suite -->
