@@ -10,6 +10,7 @@ public class TestConfig{
 	public static String[] to ={"muralidharvatti1974@gmail.com"};
 	public static String subject = "Test Report";
 	
+	
 	public static String messageBody ="TestMessage";
 	public static String attachmentPath=" ";
 	public static String attachmentName="error.jpg";
