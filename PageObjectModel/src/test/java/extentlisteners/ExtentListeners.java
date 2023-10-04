@@ -19,21 +19,14 @@ import com.aventstack.extentreports.markuputils.MarkupHelper;
 
 import extentlistener.ExtentManager;
 
-
-
 public class ExtentListeners implements ITestListener, ISuiteListener {
 
 	static Date d = new Date();
 	static String fileName = "Extent_" + d.toString().replace(":", "_").replace(" ", "_") + ".html";
 
-	private static ExtentReports extent = ExtentManager
-			.createInstance(".\\reports\\" + fileName);
+	private static ExtentReports extent = ExtentManager.createInstance(".\\reports\\" + fileName);
 
 	public static ExtentTest test;
-	
-	
-	
-	
 
 	public void onTestStart(ITestResult result) {
 
@@ -49,35 +42,39 @@ public class ExtentListeners implements ITestListener, ISuiteListener {
 		Markup m = MarkupHelper.createLabel(logText, ExtentColor.GREEN);
 		test.pass(m);
 
-	}
-
-	public void onTestFailure(ITestResult result) {
-		
-		String methodName = result.getMethod().getMethodName();
-		String logText = "<b>" + "TEST CASE:- " + methodName.toUpperCase() + " FAILD" + "</b>";
-		Markup m = MarkupHelper.createLabel(logText, ExtentColor.RED);
-		test.fail(m);
-		
-		
-		test.fail(result.getThrowable().getMessage());
-		
-	try {
+		try {
 			ExtentManager.captureScreenshot();
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		methodName=result.getMethod().getMethodName();
-		logText="<b>"+"TEST CASE:- "+ methodName.toUpperCase()+ " FAILED"+"</b>";		
 
-		test.fail("<b><font color=red>" + "Screenshot of failure" + "</font></b><br>",MediaEntityBuilder.createScreenCaptureFromPath(ExtentManager.fileName)
-				.build());
-	
-	
-		m = MarkupHelper.createLabel(logText, ExtentColor.RED);
-		test.log(Status.FAIL, m);
-			
+		test.pass("<b><font color=green>" + "Screenshot of Pass" + "</font></b><br>",
+				MediaEntityBuilder.createScreenCaptureFromPath(ExtentManager.fileName).build());
+
+	}
+
+	public void onTestFailure(ITestResult result) {
+
+		String methodName = result.getMethod().getMethodName();
+		String logText = "<b>" + "TEST CASE:- " + methodName.toUpperCase() + " FAILD" + "</b>";
 		
+		Markup m = MarkupHelper.createLabel(logText, ExtentColor.RED);
+		test.fail(m);
+
+		test.fail(result.getThrowable().getMessage());
+
+		try {
+			ExtentManager.captureScreenshot();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		methodName = result.getMethod().getMethodName();
+		logText = "<b>" + "TEST CASE:- " + methodName.toUpperCase() + " FAILED" + "</b>";
+
+		test.fail("<b><font color=red>" + "Screenshot of failure" + "</font></b><br>",
+				MediaEntityBuilder.createScreenCaptureFromPath(ExtentManager.fileName).build());
 
 	}
 
@@ -109,12 +106,12 @@ public class ExtentListeners implements ITestListener, ISuiteListener {
 
 	public void onStart(ISuite suite) {
 		// TODO Auto-generated method stub
-		
+
 	}
 
 	public void onFinish(ISuite suite) {
 		// TODO Auto-generated method stub
-		
+
 	}
 
 }

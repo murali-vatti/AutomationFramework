@@ -15,26 +15,4 @@
       </class> <!-- com.brainzhive.testcases.BankManagerLoginTest -->
     </classes>
   </test> <!-- Bankmanager Login Test(failed) -->
-  <test thread-count="5" name="Add Customer Test(failed)">
-    <classes>
-      <class name="com.brainzhive.testcases.AddCustomerTest">
-        <methods>
-          <include name="addCustomer"/>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- com.brainzhive.testcases.AddCustomerTest -->
-    </classes>
-  </test> <!-- Add Customer Test(failed) -->
-  <test thread-count="5" name="Open Account Test(failed)">
-    <classes>
-      <class name="com.brainzhive.testcases.OpenAccountTest">
-        <methods>
-          <include name="openAccount"/>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- com.brainzhive.testcases.OpenAccountTest -->
-    </classes>
-  </test> <!-- Open Account Test(failed) -->
 </suite> <!-- Failed suite [Data Drivern TestNG Framework] -->

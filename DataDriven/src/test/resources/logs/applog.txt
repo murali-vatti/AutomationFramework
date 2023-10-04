@@ -1,7 +1,32 @@
-INFO    2023-09-14 20:38:43,444 [main] com.brainzhive.base.BaseTest  - Test Execution started !!!
-INFO    2023-09-14 20:38:43,446 [main] com.brainzhive.base.BaseTest  - Config properties file loaded !!!
-INFO    2023-09-14 20:38:43,446 [main] com.brainzhive.base.BaseTest  - OR properties file loaded !!!
-INFO    2023-09-14 20:38:49,507 [main] com.brainzhive.base.BaseTest  - Edge browser launched
-INFO    2023-09-14 20:38:50,460 [main] com.brainzhive.base.BaseTest  - Navigated to : https://www.way2automation.com/angularjs-protractor/banking/#/login
-INFO    2023-09-14 20:38:50,951 [main] com.brainzhive.base.BaseTest  - Database connection established !!!
-INFO    2023-09-14 20:39:00,946 [main] com.brainzhive.base.BaseTest  - Test execution completed !!!
+INFO    2023-10-04 15:40:10,192 [main] com.brainzhive.base.BaseTest  - Test Execution started !!!
+INFO    2023-10-04 15:40:10,194 [main] com.brainzhive.base.BaseTest  - Config properties file loaded !!!
+INFO    2023-10-04 15:40:10,194 [main] com.brainzhive.base.BaseTest  - OR properties file loaded !!!
+INFO    2023-10-04 15:40:14,455 [main] com.brainzhive.base.BaseTest  - Edge browser launched
+INFO    2023-10-04 15:40:16,782 [main] com.brainzhive.base.BaseTest  - Navigated to : https://www.way2automation.com/angularjs-protractor/banking/#/login
+INFO    2023-10-04 15:40:17,491 [main] com.brainzhive.base.BaseTest  - Clicking on an Element : bmlBtn_CSS
+INFO    2023-10-04 15:40:17,594 [main] com.brainzhive.base.BaseTest  - Finding Presence of an Element : addCustomer_XPATH
+INFO    2023-10-04 15:40:18,310 [main] com.brainzhive.base.BaseTest  - Clicking on an Element : addCustBtn_CSS
+INFO    2023-10-04 15:40:18,569 [main] com.brainzhive.base.BaseTest  - Typing in an Element : firstName_CSS entered the value as : Muralidhar
+INFO    2023-10-04 15:40:18,733 [main] com.brainzhive.base.BaseTest  - Typing in an Element : lastName_CSS entered the value as : Vatti
+INFO    2023-10-04 15:40:18,872 [main] com.brainzhive.base.BaseTest  - Typing in an Element : postCode_CSS entered the value as : A234234
+INFO    2023-10-04 15:40:18,991 [main] com.brainzhive.base.BaseTest  - Clicking on an Element : addCustomer_CSS
+INFO    2023-10-04 15:40:19,118 [main] com.brainzhive.base.BaseTest  - Clicking on an Element : addCustBtn_CSS
+INFO    2023-10-04 15:40:19,403 [main] com.brainzhive.base.BaseTest  - Typing in an Element : firstName_CSS entered the value as : Mounish
+INFO    2023-10-04 15:40:19,587 [main] com.brainzhive.base.BaseTest  - Typing in an Element : lastName_CSS entered the value as : Vatti
+INFO    2023-10-04 15:40:19,877 [main] com.brainzhive.base.BaseTest  - Typing in an Element : postCode_CSS entered the value as : S3424
+INFO    2023-10-04 15:40:19,994 [main] com.brainzhive.base.BaseTest  - Clicking on an Element : addCustomer_CSS
+INFO    2023-10-04 15:40:20,136 [main] com.brainzhive.base.BaseTest  - Clicking on an Element : addCustBtn_CSS
+INFO    2023-10-04 15:40:20,285 [main] com.brainzhive.base.BaseTest  - Typing in an Element : firstName_CSS entered the value as : Vatti
+INFO    2023-10-04 15:40:20,439 [main] com.brainzhive.base.BaseTest  - Typing in an Element : lastName_CSS entered the value as : Murali
+INFO    2023-10-04 15:40:20,568 [main] com.brainzhive.base.BaseTest  - Typing in an Element : postCode_CSS entered the value as : 23343.0
+INFO    2023-10-04 15:40:20,653 [main] com.brainzhive.base.BaseTest  - Clicking on an Element : addCustomer_CSS
+INFO    2023-10-04 15:40:20,809 [main] com.brainzhive.base.BaseTest  - Clicking on an Element : addCustBtn_CSS
+INFO    2023-10-04 15:40:20,958 [main] com.brainzhive.base.BaseTest  - Typing in an Element : firstName_CSS entered the value as : Vatti
+INFO    2023-10-04 15:40:21,110 [main] com.brainzhive.base.BaseTest  - Typing in an Element : lastName_CSS entered the value as : Mounish
+INFO    2023-10-04 15:40:21,247 [main] com.brainzhive.base.BaseTest  - Typing in an Element : postCode_CSS entered the value as : 3456.0
+INFO    2023-10-04 15:40:21,332 [main] com.brainzhive.base.BaseTest  - Clicking on an Element : addCustomer_CSS
+INFO    2023-10-04 15:40:22,525 [main] com.brainzhive.base.BaseTest  - Clicking on an Element : openAccount_XPATH
+INFO    2023-10-04 15:40:22,744 [main] com.brainzhive.base.BaseTest  - Selecting an Element : customer_CSS and selected the value as : Muralidhar Vatti
+INFO    2023-10-04 15:40:22,887 [main] com.brainzhive.base.BaseTest  - Selecting an Element : currency_CSS and selected the value as : Rupee
+INFO    2023-10-04 15:40:22,963 [main] com.brainzhive.base.BaseTest  - Clicking on an Element : process_CSS
+INFO    2023-10-04 15:40:23,034 [main] com.brainzhive.base.BaseTest  - Test execution completed !!!

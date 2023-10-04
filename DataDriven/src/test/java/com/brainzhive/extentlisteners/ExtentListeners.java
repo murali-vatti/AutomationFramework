@@ -8,7 +8,6 @@ import javax.mail.internet.AddressException;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.ISuite;
 import org.testng.ISuiteListener;
 import org.testng.ITestContext;
@@ -25,6 +24,7 @@ import com.aventstack.extentreports.markuputils.MarkupHelper;
 import com.brainzhive.base.BaseTest;
 import com.brainzhive.utilities.MonitoringMail;
 import com.brainzhive.utilities.TestConfig;
+
 
 public class ExtentListeners implements ITestListener, ISuiteListener {
 
@@ -121,10 +121,9 @@ public class ExtentListeners implements ITestListener, ISuiteListener {
 			e.printStackTrace();
 		}
 
+		
 		// mailServer ,from, to, subject, messageBody, attachmentPath, attachmentName
-/*
- * 
- * 
+
 		try {
 			mail.sendMail(TestConfig.server, TestConfig.from, TestConfig.to, "Test Report", "Sample Bank Test report",
 					System.getProperty("user.dir") + "\\reports\\"+ExtentManager.fileName	, "Report.jpg");
@@ -135,8 +134,8 @@ public class ExtentListeners implements ITestListener, ISuiteListener {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		*/
-		BaseTest.driver.close();
+	
+		BaseTest.driver.quit();
 	}
 
 }

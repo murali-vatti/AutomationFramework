@@ -7,15 +7,13 @@ public class TestConfig{
 	public static String server="smtp.gmail.com";
 	public static String from = "muralivatti@gmail.com";
 	public static String password = "urmglggwpvpcstrk";
-	public static String[] to ={"muralidharvatti1974@gmail.com"};
+	public static String[] to ={"muralidharvatti1974@gmail.com","muralivatti@brainzhive.com"};
 	public static String subject = "Test Report";
-	
-	
-	
 	
 	public static String messageBody ="TestMessage";
 	public static String attachmentPath=" ";
 	public static String attachmentName="error.jpg";
+	
 	
 
 	

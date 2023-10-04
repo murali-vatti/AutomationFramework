@@ -5,14 +5,15 @@ public class TestConfig{
 
 	
 	public static String server="smtp.gmail.com";
-	public static String from = "java@way2automation.com";
-	public static String password = "Selenium@123";
-	public static String[] to ={"seleniumcoaching@gmail.com","trainer@way2automation.com"};
+	public static String from = "muralivatti@gmail.com";
+	public static String password = "urmglggwpvpcstrk";
+	public static String[] to ={"muralidharvatti1974@gmail.com","muralivatti@brainzhive.com"};
 	public static String subject = "Test Report";
 	
 	public static String messageBody ="TestMessage";
-	public static String attachmentPath="C:\\Users\\way2automation\\Desktop\\Desktop\\newyear.png";
+	public static String attachmentPath=" ";
 	public static String attachmentName="error.jpg";
+	
 	
 
 	

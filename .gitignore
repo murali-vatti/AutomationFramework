@@ -1,1 +1,9 @@
 /.metadata/
+DataDriven/.settings
+DataDriven/reports
+DataDriven/target
+DataDriven/test-output
+*.classpath
+*.project
+PageObjectModel/test-output
+

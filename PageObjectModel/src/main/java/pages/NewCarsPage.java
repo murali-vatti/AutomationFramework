@@ -4,6 +4,11 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.markuputils.ExtentColor;
+import com.aventstack.extentreports.markuputils.Markup;
+import com.aventstack.extentreports.markuputils.MarkupHelper;
+
 import base.BasePage;
 
 public class NewCarsPage extends BasePage {
@@ -17,6 +22,8 @@ public class NewCarsPage extends BasePage {
 
 	@FindBy(linkText = "BMW")
 	public WebElement bmw;
+	
+	
 
 	public BMWCarsPage gotoBMW() {
 		
@@ -42,10 +49,20 @@ public class NewCarsPage extends BasePage {
 	
 	@FindBy(linkText = "Honda")
 	public WebElement honda;
-	public HondaCarsPage gotoHonda() {
+	public HondaCarsPage gotoHonda(ExtentTest t1) {
+		String logText;
+		try {
 		
 		honda.click();
 		
+		} catch(Throwable t) {
+			
+			logText = "Expected Honda but Honda Car not available";
+			Markup m = MarkupHelper.createLabel(logText, ExtentColor.RED);
+			t1.fail(m);
+
+			
+		}
 		return new HondaCarsPage(driver);
 		
 	}
@@ -61,4 +78,16 @@ public class NewCarsPage extends BasePage {
 		return new KiaCarsPage(driver);
 	}
 
+	
+	@FindBy(linkText = "Tata")
+	public WebElement tata;
+	public TataCarsPage gotoTata() {
+		
+		
+		tata.click();
+		
+		return new TataCarsPage(driver);
+	}
+	
+	
 }

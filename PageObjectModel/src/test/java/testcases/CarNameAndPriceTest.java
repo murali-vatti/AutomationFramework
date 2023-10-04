@@ -5,6 +5,7 @@ import org.testng.annotations.Test;
 
 import base.BasePage;
 import base.BaseTest;
+import extentlisteners.ExtentListeners;
 import pages.HomePage;
 import pages.NewCarsPage;
 import utilities.DataUtil;
@@ -34,13 +35,18 @@ public class CarNameAndPriceTest extends BaseTest {
 
 		} else if (carBrand.equals("honda")) {
 
-			car.gotoHonda();
+			car.gotoHonda(ExtentListeners.test);
 
 		} else if (carBrand.equals("toyota")) {
 
 			car.gotoToyota();
 
+		}else if (carBrand.equals("tata")) {
+
+			car.gotoTata();
+
 		}
+
 
 		BasePage.carBase.getCarNameAndPrices();
 

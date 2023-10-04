@@ -2,6 +2,7 @@ package base;
 
 import java.util.List;
 
+import org.apache.commons.collections4.bag.SynchronizedSortedBag;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -41,7 +42,7 @@ public class CarBase {
 		
 		for(int i=0; i<carPrices.size(); i++) {
 			
-			
+			System.out.println(carTitle.getText());
 			System.out.println(carNames.get(i).getText()+"----Car Price is :-- "+carPrices.get(i).getText());
 			
 		}

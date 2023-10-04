@@ -16,18 +16,11 @@
 		</classes>
 	</test> <!-- Test -->
 	
-	
-	
 	<test name="Car Name and Price Test">
 		<classes>
 			<class name="testcases.CarNameAndPriceTest" />
 
 		</classes>
 	</test> <!-- Test -->
-	
-	
-	
-	
-	
 
 </suite> <!-- Suite -->

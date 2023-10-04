@@ -2961,3 +2961,956 @@ org.eclipse.core.runtime.CoreException: Launch configuration GmailTest reference
 2023-09-14 19:46:04,869 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
 2023-09-14 19:46:04,872 [Worker-61: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2023-09-14 19:46:05,014 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-09-14 20:30:38,495 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-09-14 20:35:25,262 [Worker-9: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-14 20:35:25,277 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-09-14 20:35:25,287 [Worker-9: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-14 20:35:25,293 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 7 resources
+2023-09-14 20:38:10,207 [Worker-9: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-14 20:38:10,210 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-09-14 20:38:10,215 [Worker-9: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-14 20:38:10,233 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 7 resources
+2023-09-14 20:38:19,730 [Worker-16: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558 [616])
+2023-09-14 20:38:19,738 [Worker-16: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558
+2023-09-14 20:38:19,739 [Worker-16: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\aether-connector-okhttp-0.17.8.jar
+2023-09-14 20:38:19,739 [Worker-16: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\aopalliance-1.0.jar
+2023-09-14 20:38:19,739 [Worker-16: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\commons-lang3-3.8.1.jar
+2023-09-14 20:38:19,739 [Worker-16: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\failureaccess-1.0.1.jar
+2023-09-14 20:38:19,740 [Worker-16: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\guava-30.1-jre.jar
+2023-09-14 20:38:19,740 [Worker-16: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\guice-5.1.0.jar
+2023-09-14 20:38:19,740 [Worker-16: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\jansi-2.4.0.jar
+2023-09-14 20:38:19,740 [Worker-16: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\maven-artifact-3.9.1.jar
+2023-09-14 20:38:19,740 [Worker-16: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\maven-builder-support-3.9.1.jar
+2023-09-14 20:38:19,740 [Worker-16: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\maven-compat-3.9.1.jar
+2023-09-14 20:38:19,741 [Worker-16: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\maven-core-3.9.1.jar
+2023-09-14 20:38:19,741 [Worker-16: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\maven-embedder-3.9.1.jar
+2023-09-14 20:38:19,741 [Worker-16: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\maven-model-3.9.1.jar
+2023-09-14 20:38:19,741 [Worker-16: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\maven-model-builder-3.9.1.jar
+2023-09-14 20:38:19,741 [Worker-16: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\maven-plugin-api-3.9.1.jar
+2023-09-14 20:38:19,741 [Worker-16: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\maven-repository-metadata-3.9.1.jar
+2023-09-14 20:38:19,742 [Worker-16: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\maven-resolver-api-1.9.7.jar
+2023-09-14 20:38:19,742 [Worker-16: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\maven-resolver-connector-basic-1.9.7.jar
+2023-09-14 20:38:19,742 [Worker-16: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\maven-resolver-impl-1.9.7.jar
+2023-09-14 20:38:19,742 [Worker-16: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\maven-resolver-named-locks-1.9.7.jar
+2023-09-14 20:38:19,742 [Worker-16: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\maven-resolver-provider-3.9.1.jar
+2023-09-14 20:38:19,743 [Worker-16: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\maven-resolver-spi-1.9.7.jar
+2023-09-14 20:38:19,743 [Worker-16: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\maven-resolver-transport-wagon-1.9.7.jar
+2023-09-14 20:38:19,743 [Worker-16: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\maven-resolver-util-1.9.7.jar
+2023-09-14 20:38:19,743 [Worker-16: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\maven-settings-3.9.1.jar
+2023-09-14 20:38:19,743 [Worker-16: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\maven-settings-builder-3.9.1.jar
+2023-09-14 20:38:19,743 [Worker-16: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\maven-shared-utils-3.3.4.jar
+2023-09-14 20:38:19,743 [Worker-16: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\okhttp-3.14.1.jar
+2023-09-14 20:38:19,744 [Worker-16: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\okio-1.17.3.jar
+2023-09-14 20:38:19,744 [Worker-16: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\org.eclipse.sisu.inject-0.3.5.jar
+2023-09-14 20:38:19,744 [Worker-16: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\org.eclipse.sisu.plexus-0.3.5.jar
+2023-09-14 20:38:19,744 [Worker-16: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\plexus-build-api-0.0.7.jar
+2023-09-14 20:38:19,744 [Worker-16: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\plexus-cipher-2.0.jar
+2023-09-14 20:38:19,745 [Worker-16: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\plexus-classworlds-2.6.0.jar
+2023-09-14 20:38:19,745 [Worker-16: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\plexus-component-annotations-2.1.0.jar
+2023-09-14 20:38:19,745 [Worker-16: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\plexus-interpolation-1.26.jar
+2023-09-14 20:38:19,745 [Worker-16: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\plexus-sec-dispatcher-2.0.jar
+2023-09-14 20:38:19,745 [Worker-16: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\plexus-utils-3.5.1.jar
+2023-09-14 20:38:19,746 [Worker-16: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\wagon-file-3.5.3.jar
+2023-09-14 20:38:19,747 [Worker-16: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\wagon-provider-api-3.5.3.jar
+2023-09-14 20:38:19,749 [Worker-16: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava_31.1.0.jre [13])
+2023-09-14 20:38:19,758 [Worker-16: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\com.google.guava_31.1.0.jre.jar
+2023-09-14 20:38:19,758 [Worker-16: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=slf4j.api_1.7.36 [983])
+2023-09-14 20:38:19,760 [Worker-16: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\slf4j.api_1.7.36.jar
+2023-09-14 20:38:19,760 [Worker-16: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.inject_1.0.0.v20220405-0441 [37])
+2023-09-14 20:38:19,761 [Worker-16: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\javax.inject_1.0.0.v20220405-0441.jar
+2023-09-14 20:38:19,761 [Worker-16: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.annotation_1.3.5.v20230504-0748 [35])
+2023-09-14 20:38:19,765 [Worker-16: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\javax.annotation_1.3.5.v20230504-0748.jar
+2023-09-14 20:38:19,765 [Worker-16: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.cli_1.5.0 [69])
+2023-09-14 20:38:19,766 [Worker-16: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.apache.commons.cli_1.5.0.jar
+2023-09-14 20:38:19,767 [Worker-16: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava.failureaccess_1.0.1 [14])
+2023-09-14 20:38:19,768 [Worker-16: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\com.google.guava.failureaccess_1.0.1.jar
+2023-09-14 20:38:19,776 [Worker-16: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "D:\AutomationFramework\DataDriven":
+2023-09-14 20:38:19,785 [Worker-16: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always clean
+2023-09-14 20:38:29,523 [Worker-9: Launching Executing test in D__AutomationFramework_DataDriven] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "D:\AutomationFramework\DataDriven":
+2023-09-14 20:38:29,523 [Worker-9: Launching Executing test in D__AutomationFramework_DataDriven] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always test
+2023-09-14 20:39:04,499 [Worker-9: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-14 20:39:04,640 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-09-14 20:39:04,656 [Worker-9: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-14 20:39:04,656 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 7 resources
+2023-09-14 20:40:27,303 [Worker-15: reload maven project] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.3 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2023-09-14 20:40:27,315 [Worker-15: reload maven project] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.4 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2023-09-14 20:40:27,319 [Worker-15: reload maven project] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.5 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2023-09-14 20:40:27,549 [Worker-15: reload maven project] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.beust:jcommander:jar:1.66 is missing, no dependency information available
+2023-09-14 20:40:40,968 [Worker-9: Launching Executing clean in D__AutomationFramework_PageObjectModel] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "D:\AutomationFramework\PageObjectModel":
+2023-09-14 20:40:40,968 [Worker-9: Launching Executing clean in D__AutomationFramework_PageObjectModel] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always clean
+2023-09-14 20:40:47,317 [Worker-19: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-14 20:40:47,319 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-09-14 20:40:47,325 [Worker-19: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-14 20:40:47,331 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-09-14 20:40:51,748 [Worker-16: Launching Executing test in D__AutomationFramework_PageObjectModel] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "D:\AutomationFramework\PageObjectModel":
+2023-09-14 20:40:51,749 [Worker-16: Launching Executing test in D__AutomationFramework_PageObjectModel] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always test
+2023-09-14 20:41:40,102 [Worker-21: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-14 20:41:40,110 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-09-14 20:41:40,119 [Worker-21: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-14 20:41:40,121 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 6 resources
+2023-09-14 21:31:23,967 [Worker-33: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-14 21:31:23,975 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-09-14 21:31:23,980 [Worker-33: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-14 21:31:23,984 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-09-14 21:35:45,899 [Worker-36: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-14 21:35:45,901 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-09-14 21:35:45,908 [Worker-36: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-14 21:35:45,909 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-09-14 21:39:33,733 [Worker-38: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-14 21:39:33,734 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-09-14 21:39:33,747 [Worker-38: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-14 21:39:33,777 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 7 resources
+2023-09-14 21:39:52,642 [Worker-40: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-14 21:39:52,643 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-09-14 21:39:52,752 [Worker-40: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-14 21:39:52,763 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 7 resources
+2023-09-14 21:59:06,048 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-09-14 22:02:32,193 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-09-14 22:24:02,284 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-09-14 22:34:03,463 [Worker-15: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-14 22:34:03,476 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-09-14 22:34:03,488 [Worker-15: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-14 22:34:03,492 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 7 resources
+2023-09-14 22:34:05,131 [Worker-15: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.3 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2023-09-14 22:34:05,136 [Worker-15: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.4 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2023-09-14 22:34:05,140 [Worker-15: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.5 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2023-09-14 22:34:05,349 [Worker-15: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.beust:jcommander:jar:1.66 is missing, no dependency information available
+2023-09-14 22:34:05,868 [Worker-15: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-14 22:34:05,869 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-09-14 22:34:05,896 [Worker-15: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-14 22:34:05,900 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 6 resources
+2023-09-14 22:35:51,692 [Worker-15: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-14 22:35:51,698 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-09-14 22:35:51,709 [Worker-15: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-14 22:35:51,726 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 6 resources
+2023-09-14 22:40:42,182 [Worker-18: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-14 22:40:42,225 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-09-14 22:40:42,228 [Worker-18: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-14 22:40:42,249 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 7 resources
+2023-09-15 11:02:33,496 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-09-15 11:05:16,856 [Worker-6: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558 [616])
+2023-09-15 11:05:17,018 [Worker-6: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558
+2023-09-15 11:05:17,019 [Worker-6: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\aether-connector-okhttp-0.17.8.jar
+2023-09-15 11:05:17,019 [Worker-6: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\aopalliance-1.0.jar
+2023-09-15 11:05:17,019 [Worker-6: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\commons-lang3-3.8.1.jar
+2023-09-15 11:05:17,020 [Worker-6: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\failureaccess-1.0.1.jar
+2023-09-15 11:05:17,020 [Worker-6: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\guava-30.1-jre.jar
+2023-09-15 11:05:17,020 [Worker-6: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\guice-5.1.0.jar
+2023-09-15 11:05:17,020 [Worker-6: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\jansi-2.4.0.jar
+2023-09-15 11:05:17,020 [Worker-6: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\maven-artifact-3.9.1.jar
+2023-09-15 11:05:17,021 [Worker-6: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\maven-builder-support-3.9.1.jar
+2023-09-15 11:05:17,021 [Worker-6: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\maven-compat-3.9.1.jar
+2023-09-15 11:05:17,021 [Worker-6: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\maven-core-3.9.1.jar
+2023-09-15 11:05:17,021 [Worker-6: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\maven-embedder-3.9.1.jar
+2023-09-15 11:05:17,022 [Worker-6: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\maven-model-3.9.1.jar
+2023-09-15 11:05:17,022 [Worker-6: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\maven-model-builder-3.9.1.jar
+2023-09-15 11:05:17,022 [Worker-6: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\maven-plugin-api-3.9.1.jar
+2023-09-15 11:05:17,022 [Worker-6: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\maven-repository-metadata-3.9.1.jar
+2023-09-15 11:05:17,023 [Worker-6: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\maven-resolver-api-1.9.7.jar
+2023-09-15 11:05:17,024 [Worker-6: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\maven-resolver-connector-basic-1.9.7.jar
+2023-09-15 11:05:17,025 [Worker-6: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\maven-resolver-impl-1.9.7.jar
+2023-09-15 11:05:17,025 [Worker-6: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\maven-resolver-named-locks-1.9.7.jar
+2023-09-15 11:05:17,025 [Worker-6: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\maven-resolver-provider-3.9.1.jar
+2023-09-15 11:05:17,025 [Worker-6: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\maven-resolver-spi-1.9.7.jar
+2023-09-15 11:05:17,026 [Worker-6: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\maven-resolver-transport-wagon-1.9.7.jar
+2023-09-15 11:05:17,028 [Worker-6: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\maven-resolver-util-1.9.7.jar
+2023-09-15 11:05:17,028 [Worker-6: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\maven-settings-3.9.1.jar
+2023-09-15 11:05:17,028 [Worker-6: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\maven-settings-builder-3.9.1.jar
+2023-09-15 11:05:17,028 [Worker-6: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\maven-shared-utils-3.3.4.jar
+2023-09-15 11:05:17,028 [Worker-6: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\okhttp-3.14.1.jar
+2023-09-15 11:05:17,029 [Worker-6: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\okio-1.17.3.jar
+2023-09-15 11:05:17,031 [Worker-6: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\org.eclipse.sisu.inject-0.3.5.jar
+2023-09-15 11:05:17,031 [Worker-6: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\org.eclipse.sisu.plexus-0.3.5.jar
+2023-09-15 11:05:17,031 [Worker-6: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\plexus-build-api-0.0.7.jar
+2023-09-15 11:05:17,031 [Worker-6: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\plexus-cipher-2.0.jar
+2023-09-15 11:05:17,032 [Worker-6: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\plexus-classworlds-2.6.0.jar
+2023-09-15 11:05:17,032 [Worker-6: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\plexus-component-annotations-2.1.0.jar
+2023-09-15 11:05:17,032 [Worker-6: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\plexus-interpolation-1.26.jar
+2023-09-15 11:05:17,032 [Worker-6: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\plexus-sec-dispatcher-2.0.jar
+2023-09-15 11:05:17,032 [Worker-6: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\plexus-utils-3.5.1.jar
+2023-09-15 11:05:17,033 [Worker-6: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\wagon-file-3.5.3.jar
+2023-09-15 11:05:17,033 [Worker-6: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\wagon-provider-api-3.5.3.jar
+2023-09-15 11:05:17,037 [Worker-6: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava_31.1.0.jre [13])
+2023-09-15 11:05:17,038 [Worker-6: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\com.google.guava_31.1.0.jre.jar
+2023-09-15 11:05:17,038 [Worker-6: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=slf4j.api_1.7.36 [983])
+2023-09-15 11:05:17,039 [Worker-6: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\slf4j.api_1.7.36.jar
+2023-09-15 11:05:17,039 [Worker-6: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.inject_1.0.0.v20220405-0441 [37])
+2023-09-15 11:05:17,041 [Worker-6: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\javax.inject_1.0.0.v20220405-0441.jar
+2023-09-15 11:05:17,041 [Worker-6: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.annotation_1.3.5.v20230504-0748 [35])
+2023-09-15 11:05:17,084 [Worker-6: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\javax.annotation_1.3.5.v20230504-0748.jar
+2023-09-15 11:05:17,085 [Worker-6: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.cli_1.5.0 [69])
+2023-09-15 11:05:17,130 [Worker-6: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.apache.commons.cli_1.5.0.jar
+2023-09-15 11:05:17,131 [Worker-6: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava.failureaccess_1.0.1 [14])
+2023-09-15 11:05:17,136 [Worker-6: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\com.google.guava.failureaccess_1.0.1.jar
+2023-09-15 11:05:17,144 [Worker-6: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "D:\AutomationFramework\DataDriven":
+2023-09-15 11:05:17,149 [Worker-6: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always clean
+2023-09-15 11:05:33,627 [Worker-6: Launching Executing test in D__AutomationFramework_DataDriven] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "D:\AutomationFramework\DataDriven":
+2023-09-15 11:05:33,628 [Worker-6: Launching Executing test in D__AutomationFramework_DataDriven] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always test
+2023-09-15 11:06:39,349 [Worker-3: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-15 11:06:39,488 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-09-15 11:06:39,497 [Worker-3: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-15 11:06:39,518 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 7 resources
+2023-09-15 11:06:48,761 [Worker-1: reload maven project] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.3 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2023-09-15 11:06:48,837 [Worker-1: reload maven project] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.4 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2023-09-15 11:06:49,014 [Worker-1: reload maven project] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.5 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2023-09-15 11:06:49,432 [Worker-1: reload maven project] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.beust:jcommander:jar:1.66 is missing, no dependency information available
+2023-09-15 11:06:57,141 [Worker-6: Launching Executing clean in D__AutomationFramework_PageObjectModel] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "D:\AutomationFramework\PageObjectModel":
+2023-09-15 11:06:57,142 [Worker-6: Launching Executing clean in D__AutomationFramework_PageObjectModel] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always clean
+2023-09-15 11:07:08,815 [Worker-3: Launching Executing test in D__AutomationFramework_PageObjectModel] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "D:\AutomationFramework\PageObjectModel":
+2023-09-15 11:07:08,815 [Worker-3: Launching Executing test in D__AutomationFramework_PageObjectModel] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always test
+2023-09-15 11:08:36,273 [Worker-8: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-15 11:08:36,319 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-09-15 11:08:36,327 [Worker-8: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-15 11:08:36,366 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 6 resources
+2023-09-15 11:11:45,967 [Worker-8: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-15 11:11:45,992 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-09-15 11:11:45,996 [Worker-8: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-15 11:11:46,039 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-09-15 11:19:32,098 [Worker-14: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-15 11:19:32,134 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-09-15 11:19:32,138 [Worker-14: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-15 11:19:32,192 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-09-15 11:44:26,167 [Worker-20: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-15 11:44:26,170 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-09-15 11:44:26,174 [Worker-20: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-15 11:44:26,178 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-09-15 12:30:29,984 [Worker-27: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-15 12:30:30,015 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-09-15 12:30:30,015 [Worker-27: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-15 12:30:30,015 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 6 resources
+2023-09-26 14:42:38,123 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-09-26 14:43:13,238 [Worker-6: reload maven project] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.3 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2023-09-26 14:43:13,260 [Worker-6: reload maven project] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.4 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2023-09-26 14:43:13,269 [Worker-6: reload maven project] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.5 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2023-09-26 14:43:13,621 [Worker-6: reload maven project] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.beust:jcommander:jar:1.66 is missing, no dependency information available
+2023-09-26 15:02:29,006 [Worker-12: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 15:02:29,014 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-09-26 15:02:29,029 [Worker-12: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 15:02:29,040 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 6 resources
+2023-09-26 15:03:40,668 [Worker-15: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.brainzhive:PageObjectModel:0.0.1-SNAPSHOT @ D:\AutomationFramework\PageObjectModel\pom.xml.
+2023-09-26 15:03:40,828 [Worker-15: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.3 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2023-09-26 15:03:40,832 [Worker-15: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.4 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2023-09-26 15:03:40,836 [Worker-15: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.5 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2023-09-26 15:03:41,010 [Worker-15: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.beust:jcommander:jar:1.66 is missing, no dependency information available
+2023-09-26 15:03:42,947 [Worker-15: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 15:03:42,951 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-09-26 15:03:42,966 [Worker-15: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 15:03:42,971 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-09-26 15:04:16,373 [Worker-12: Launching Executing clean in D__AutomationFramework_PageObjectModel] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558 [616])
+2023-09-26 15:04:16,379 [Worker-12: Launching Executing clean in D__AutomationFramework_PageObjectModel] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558
+2023-09-26 15:04:16,379 [Worker-12: Launching Executing clean in D__AutomationFramework_PageObjectModel] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\aether-connector-okhttp-0.17.8.jar
+2023-09-26 15:04:16,379 [Worker-12: Launching Executing clean in D__AutomationFramework_PageObjectModel] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\aopalliance-1.0.jar
+2023-09-26 15:04:16,379 [Worker-12: Launching Executing clean in D__AutomationFramework_PageObjectModel] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\commons-lang3-3.8.1.jar
+2023-09-26 15:04:16,380 [Worker-12: Launching Executing clean in D__AutomationFramework_PageObjectModel] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\failureaccess-1.0.1.jar
+2023-09-26 15:04:16,380 [Worker-12: Launching Executing clean in D__AutomationFramework_PageObjectModel] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\guava-30.1-jre.jar
+2023-09-26 15:04:16,380 [Worker-12: Launching Executing clean in D__AutomationFramework_PageObjectModel] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\guice-5.1.0.jar
+2023-09-26 15:04:16,380 [Worker-12: Launching Executing clean in D__AutomationFramework_PageObjectModel] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\jansi-2.4.0.jar
+2023-09-26 15:04:16,380 [Worker-12: Launching Executing clean in D__AutomationFramework_PageObjectModel] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\maven-artifact-3.9.1.jar
+2023-09-26 15:04:16,380 [Worker-12: Launching Executing clean in D__AutomationFramework_PageObjectModel] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\maven-builder-support-3.9.1.jar
+2023-09-26 15:04:16,381 [Worker-12: Launching Executing clean in D__AutomationFramework_PageObjectModel] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\maven-compat-3.9.1.jar
+2023-09-26 15:04:16,381 [Worker-12: Launching Executing clean in D__AutomationFramework_PageObjectModel] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\maven-core-3.9.1.jar
+2023-09-26 15:04:16,381 [Worker-12: Launching Executing clean in D__AutomationFramework_PageObjectModel] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\maven-embedder-3.9.1.jar
+2023-09-26 15:04:16,381 [Worker-12: Launching Executing clean in D__AutomationFramework_PageObjectModel] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\maven-model-3.9.1.jar
+2023-09-26 15:04:16,381 [Worker-12: Launching Executing clean in D__AutomationFramework_PageObjectModel] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\maven-model-builder-3.9.1.jar
+2023-09-26 15:04:16,381 [Worker-12: Launching Executing clean in D__AutomationFramework_PageObjectModel] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\maven-plugin-api-3.9.1.jar
+2023-09-26 15:04:16,382 [Worker-12: Launching Executing clean in D__AutomationFramework_PageObjectModel] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\maven-repository-metadata-3.9.1.jar
+2023-09-26 15:04:16,382 [Worker-12: Launching Executing clean in D__AutomationFramework_PageObjectModel] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\maven-resolver-api-1.9.7.jar
+2023-09-26 15:04:16,383 [Worker-12: Launching Executing clean in D__AutomationFramework_PageObjectModel] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\maven-resolver-connector-basic-1.9.7.jar
+2023-09-26 15:04:16,383 [Worker-12: Launching Executing clean in D__AutomationFramework_PageObjectModel] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\maven-resolver-impl-1.9.7.jar
+2023-09-26 15:04:16,383 [Worker-12: Launching Executing clean in D__AutomationFramework_PageObjectModel] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\maven-resolver-named-locks-1.9.7.jar
+2023-09-26 15:04:16,383 [Worker-12: Launching Executing clean in D__AutomationFramework_PageObjectModel] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\maven-resolver-provider-3.9.1.jar
+2023-09-26 15:04:16,384 [Worker-12: Launching Executing clean in D__AutomationFramework_PageObjectModel] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\maven-resolver-spi-1.9.7.jar
+2023-09-26 15:04:16,384 [Worker-12: Launching Executing clean in D__AutomationFramework_PageObjectModel] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\maven-resolver-transport-wagon-1.9.7.jar
+2023-09-26 15:04:16,384 [Worker-12: Launching Executing clean in D__AutomationFramework_PageObjectModel] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\maven-resolver-util-1.9.7.jar
+2023-09-26 15:04:16,384 [Worker-12: Launching Executing clean in D__AutomationFramework_PageObjectModel] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\maven-settings-3.9.1.jar
+2023-09-26 15:04:16,384 [Worker-12: Launching Executing clean in D__AutomationFramework_PageObjectModel] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\maven-settings-builder-3.9.1.jar
+2023-09-26 15:04:16,385 [Worker-12: Launching Executing clean in D__AutomationFramework_PageObjectModel] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\maven-shared-utils-3.3.4.jar
+2023-09-26 15:04:16,385 [Worker-12: Launching Executing clean in D__AutomationFramework_PageObjectModel] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\okhttp-3.14.1.jar
+2023-09-26 15:04:16,385 [Worker-12: Launching Executing clean in D__AutomationFramework_PageObjectModel] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\okio-1.17.3.jar
+2023-09-26 15:04:16,386 [Worker-12: Launching Executing clean in D__AutomationFramework_PageObjectModel] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\org.eclipse.sisu.inject-0.3.5.jar
+2023-09-26 15:04:16,386 [Worker-12: Launching Executing clean in D__AutomationFramework_PageObjectModel] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\org.eclipse.sisu.plexus-0.3.5.jar
+2023-09-26 15:04:16,386 [Worker-12: Launching Executing clean in D__AutomationFramework_PageObjectModel] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\plexus-build-api-0.0.7.jar
+2023-09-26 15:04:16,387 [Worker-12: Launching Executing clean in D__AutomationFramework_PageObjectModel] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\plexus-cipher-2.0.jar
+2023-09-26 15:04:16,387 [Worker-12: Launching Executing clean in D__AutomationFramework_PageObjectModel] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\plexus-classworlds-2.6.0.jar
+2023-09-26 15:04:16,387 [Worker-12: Launching Executing clean in D__AutomationFramework_PageObjectModel] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\plexus-component-annotations-2.1.0.jar
+2023-09-26 15:04:16,387 [Worker-12: Launching Executing clean in D__AutomationFramework_PageObjectModel] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\plexus-interpolation-1.26.jar
+2023-09-26 15:04:16,388 [Worker-12: Launching Executing clean in D__AutomationFramework_PageObjectModel] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\plexus-sec-dispatcher-2.0.jar
+2023-09-26 15:04:16,388 [Worker-12: Launching Executing clean in D__AutomationFramework_PageObjectModel] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\plexus-utils-3.5.1.jar
+2023-09-26 15:04:16,388 [Worker-12: Launching Executing clean in D__AutomationFramework_PageObjectModel] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\wagon-file-3.5.3.jar
+2023-09-26 15:04:16,388 [Worker-12: Launching Executing clean in D__AutomationFramework_PageObjectModel] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\wagon-provider-api-3.5.3.jar
+2023-09-26 15:04:16,393 [Worker-12: Launching Executing clean in D__AutomationFramework_PageObjectModel] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava_31.1.0.jre [13])
+2023-09-26 15:04:16,395 [Worker-12: Launching Executing clean in D__AutomationFramework_PageObjectModel] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\com.google.guava_31.1.0.jre.jar
+2023-09-26 15:04:16,395 [Worker-12: Launching Executing clean in D__AutomationFramework_PageObjectModel] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=slf4j.api_1.7.36 [983])
+2023-09-26 15:04:16,396 [Worker-12: Launching Executing clean in D__AutomationFramework_PageObjectModel] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\slf4j.api_1.7.36.jar
+2023-09-26 15:04:16,396 [Worker-12: Launching Executing clean in D__AutomationFramework_PageObjectModel] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.inject_1.0.0.v20220405-0441 [37])
+2023-09-26 15:04:16,398 [Worker-12: Launching Executing clean in D__AutomationFramework_PageObjectModel] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\javax.inject_1.0.0.v20220405-0441.jar
+2023-09-26 15:04:16,398 [Worker-12: Launching Executing clean in D__AutomationFramework_PageObjectModel] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.annotation_1.3.5.v20230504-0748 [35])
+2023-09-26 15:04:16,399 [Worker-12: Launching Executing clean in D__AutomationFramework_PageObjectModel] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\javax.annotation_1.3.5.v20230504-0748.jar
+2023-09-26 15:04:16,400 [Worker-12: Launching Executing clean in D__AutomationFramework_PageObjectModel] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.cli_1.5.0 [69])
+2023-09-26 15:04:16,402 [Worker-12: Launching Executing clean in D__AutomationFramework_PageObjectModel] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.apache.commons.cli_1.5.0.jar
+2023-09-26 15:04:16,402 [Worker-12: Launching Executing clean in D__AutomationFramework_PageObjectModel] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava.failureaccess_1.0.1 [14])
+2023-09-26 15:04:16,404 [Worker-12: Launching Executing clean in D__AutomationFramework_PageObjectModel] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\com.google.guava.failureaccess_1.0.1.jar
+2023-09-26 15:04:16,409 [Worker-12: Launching Executing clean in D__AutomationFramework_PageObjectModel] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "D:\AutomationFramework\PageObjectModel":
+2023-09-26 15:04:16,410 [Worker-12: Launching Executing clean in D__AutomationFramework_PageObjectModel] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always clean
+2023-09-26 15:04:30,550 [Worker-16: Launching Executing test in D__AutomationFramework_PageObjectModel] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "D:\AutomationFramework\PageObjectModel":
+2023-09-26 15:04:30,550 [Worker-16: Launching Executing test in D__AutomationFramework_PageObjectModel] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always test
+2023-09-26 15:06:11,009 [Worker-15: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 15:06:11,013 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-09-26 15:06:11,013 [Worker-15: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 15:06:11,018 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 6 resources
+2023-09-26 15:17:11,730 [Worker-12: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 15:17:11,737 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-09-26 15:17:11,740 [Worker-12: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 15:17:11,743 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 6 resources
+2023-09-26 15:19:51,866 [Worker-12: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 15:19:51,937 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-09-26 15:19:51,943 [Worker-12: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 15:19:51,956 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-09-26 15:20:03,742 [Worker-23: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 15:20:03,765 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-09-26 15:20:03,768 [Worker-23: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 15:20:03,774 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-09-26 15:22:12,333 [Worker-24: Launching PageObjectModel_src.test.resources.runner.testng.xml] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 15:22:12,336 [Worker-24: Launching PageObjectModel_src.test.resources.runner.testng.xml] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-09-26 15:22:12,340 [Worker-24: Launching PageObjectModel_src.test.resources.runner.testng.xml] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 15:22:12,345 [Worker-24: Launching PageObjectModel_src.test.resources.runner.testng.xml] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-09-26 15:32:46,837 [Worker-23: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 15:32:46,852 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-09-26 15:32:46,856 [Worker-23: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 15:32:46,862 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-09-26 15:33:04,723 [Worker-28: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 15:33:04,732 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-09-26 15:33:04,739 [Worker-28: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 15:33:04,906 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-09-26 15:33:30,150 [Worker-28: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 15:33:30,157 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-09-26 15:33:30,162 [Worker-28: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 15:33:30,172 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-09-26 15:35:03,853 [Worker-27: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 15:35:03,914 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-09-26 15:35:03,916 [Worker-27: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 15:35:03,973 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-09-26 15:36:25,943 [Worker-29: Launching PageObjectModel_src.test.resources.runner.testng.xml] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 15:36:26,102 [Worker-29: Launching PageObjectModel_src.test.resources.runner.testng.xml] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-09-26 15:36:26,106 [Worker-29: Launching PageObjectModel_src.test.resources.runner.testng.xml] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 15:36:26,109 [Worker-29: Launching PageObjectModel_src.test.resources.runner.testng.xml] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 6 resources
+2023-09-26 15:38:22,408 [Worker-29: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 15:38:22,427 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-09-26 15:38:22,429 [Worker-29: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 15:38:22,432 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 6 resources
+2023-09-26 15:41:35,793 [Worker-33: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 15:41:35,795 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-09-26 15:41:35,797 [Worker-33: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 15:41:35,800 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-09-26 15:45:44,573 [Worker-33: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 15:45:44,581 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-09-26 15:45:44,584 [Worker-33: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 15:45:44,589 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 6 resources
+2023-09-26 15:48:05,574 [Worker-33: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 15:48:05,587 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-09-26 15:48:05,590 [Worker-33: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 15:48:05,594 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 6 resources
+2023-09-26 15:52:09,171 [Worker-40: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 15:52:09,175 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-09-26 15:52:09,179 [Worker-40: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 15:52:09,182 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 6 resources
+2023-09-26 15:57:46,135 [Worker-40: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 15:57:46,171 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-09-26 15:57:46,173 [Worker-40: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 15:57:46,176 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 6 resources
+2023-09-26 16:04:21,930 [Worker-42: Launching PageObjectModel_src.test.resources.runner.testng.xml] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 16:04:22,059 [Worker-42: Launching PageObjectModel_src.test.resources.runner.testng.xml] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-09-26 16:04:22,065 [Worker-42: Launching PageObjectModel_src.test.resources.runner.testng.xml] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 16:04:22,099 [Worker-42: Launching PageObjectModel_src.test.resources.runner.testng.xml] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 6 resources
+2023-09-26 16:27:08,761 [Worker-50: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 16:27:08,769 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-09-26 16:27:08,772 [Worker-50: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 16:27:08,775 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 6 resources
+2023-09-26 17:27:21,181 [Worker-55: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.brainzhive:PageObjectModel:0.0.1-SNAPSHOT @ D:\AutomationFramework\PageObjectModel\pom.xml.
+2023-09-26 17:27:21,301 [Worker-55: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.3 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2023-09-26 17:27:21,305 [Worker-55: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.4 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2023-09-26 17:27:21,308 [Worker-55: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.5 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2023-09-26 17:27:21,462 [Worker-55: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.beust:jcommander:jar:1.66 is missing, no dependency information available
+2023-09-26 17:27:22,573 [Worker-55: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 17:27:22,577 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-09-26 17:27:22,581 [Worker-55: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 17:27:22,582 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-09-26 17:40:30,444 [Worker-55: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 17:40:30,451 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-09-26 17:40:30,455 [Worker-55: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 17:40:30,458 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 6 resources
+2023-09-26 17:40:44,331 [Worker-57: Launching PageObjectModel_src.test.resources.runner.testng.xml] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 17:40:44,335 [Worker-57: Launching PageObjectModel_src.test.resources.runner.testng.xml] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-09-26 17:40:44,338 [Worker-57: Launching PageObjectModel_src.test.resources.runner.testng.xml] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 17:40:44,340 [Worker-57: Launching PageObjectModel_src.test.resources.runner.testng.xml] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-09-26 18:16:56,937 [Worker-76: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 18:16:56,942 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-09-26 18:16:56,944 [Worker-76: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 18:16:56,945 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 7 resources
+2023-09-26 18:17:08,385 [Worker-66: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 18:17:08,398 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-09-26 18:17:08,406 [Worker-66: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 18:17:08,411 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 7 resources
+2023-09-26 18:19:53,815 [Worker-66: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 18:19:53,819 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-09-26 18:19:53,822 [Worker-66: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 18:19:53,826 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 7 resources
+2023-09-26 18:20:03,156 [Worker-74: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 18:20:03,162 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-09-26 18:20:03,166 [Worker-74: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 18:20:03,193 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 7 resources
+2023-09-26 18:22:10,510 [Worker-74: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 18:22:10,515 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-09-26 18:22:10,517 [Worker-74: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 18:22:10,521 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 7 resources
+2023-09-26 18:24:11,939 [Worker-76: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 18:24:11,941 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-09-26 18:24:11,943 [Worker-76: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 18:24:11,945 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 7 resources
+2023-09-26 18:24:22,298 [Worker-71: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 18:24:22,303 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-09-26 18:24:22,306 [Worker-71: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 18:24:22,309 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 7 resources
+2023-09-26 18:24:30,452 [Worker-79: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 18:24:30,485 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-09-26 18:24:30,489 [Worker-79: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 18:24:30,495 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 7 resources
+2023-09-26 18:24:54,092 [Worker-74: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 18:24:54,100 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-09-26 18:24:54,103 [Worker-74: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 18:24:54,106 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 7 resources
+2023-09-26 18:25:02,472 [Worker-74: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 18:25:02,508 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-09-26 18:25:02,512 [Worker-74: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 18:25:02,516 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 7 resources
+2023-09-26 18:25:57,414 [Worker-78: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 18:25:57,501 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-09-26 18:25:57,503 [Worker-78: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 18:25:57,506 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 7 resources
+2023-09-26 18:31:39,824 [Worker-82: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 18:31:39,828 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-09-26 18:31:39,831 [Worker-82: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 18:31:39,840 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 7 resources
+2023-09-26 18:32:01,813 [Worker-80: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 18:32:01,822 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-09-26 18:32:01,824 [Worker-80: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 18:32:01,828 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 7 resources
+2023-09-26 18:33:05,237 [Worker-82: Launching DataDriven_src.test.resources.runner.testng.xml] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 18:33:05,239 [Worker-82: Launching DataDriven_src.test.resources.runner.testng.xml] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-09-26 18:33:05,241 [Worker-82: Launching DataDriven_src.test.resources.runner.testng.xml] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 18:33:05,245 [Worker-82: Launching DataDriven_src.test.resources.runner.testng.xml] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 7 resources
+2023-09-26 18:38:15,723 [Worker-81: Launching BankManagerLoginTest] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 18:38:15,867 [Worker-81: Launching BankManagerLoginTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-09-26 18:38:15,869 [Worker-81: Launching BankManagerLoginTest] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 18:38:15,988 [Worker-81: Launching BankManagerLoginTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 7 resources
+2023-09-26 18:48:07,870 [Worker-86: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 18:48:07,905 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-09-26 18:48:07,910 [Worker-86: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 18:48:07,973 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 7 resources
+2023-09-26 18:53:37,101 [Worker-86: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 18:53:37,105 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-09-26 18:53:37,107 [Worker-86: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 18:53:37,112 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 7 resources
+2023-09-26 18:56:03,090 [Worker-92: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 18:56:03,230 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-09-26 18:56:03,231 [Worker-92: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 18:56:03,259 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 7 resources
+2023-09-26 18:56:49,286 [Worker-94: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 18:56:49,290 [Worker-94: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-09-26 18:56:49,292 [Worker-94: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 18:56:49,295 [Worker-94: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 7 resources
+2023-09-26 18:59:24,631 [Worker-94: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 18:59:24,643 [Worker-94: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-09-26 18:59:24,647 [Worker-94: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 18:59:24,796 [Worker-94: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 7 resources
+2023-09-26 19:01:01,362 [Worker-97: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 19:01:01,373 [Worker-97: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-09-26 19:01:01,375 [Worker-97: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 19:01:01,388 [Worker-97: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 7 resources
+2023-09-26 19:02:09,697 [Worker-95: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 19:02:09,703 [Worker-95: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-09-26 19:02:09,705 [Worker-95: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 19:02:09,709 [Worker-95: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 7 resources
+2023-09-26 19:03:47,829 [Worker-96: Launching DataDriven_src.test.resources.runner.testng.xml] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 19:03:47,901 [Worker-96: Launching DataDriven_src.test.resources.runner.testng.xml] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-09-26 19:03:47,905 [Worker-96: Launching DataDriven_src.test.resources.runner.testng.xml] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 19:03:47,966 [Worker-96: Launching DataDriven_src.test.resources.runner.testng.xml] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 7 resources
+2023-09-26 19:14:14,153 [Worker-92: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 19:14:14,161 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-09-26 19:14:14,163 [Worker-92: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 19:14:14,166 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 7 resources
+2023-09-26 19:17:07,365 [Worker-99: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 19:17:07,367 [Worker-99: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-09-26 19:17:07,369 [Worker-99: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 19:17:07,371 [Worker-99: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 7 resources
+2023-09-26 19:19:48,315 [Worker-107: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 19:19:48,330 [Worker-107: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-09-26 19:19:48,332 [Worker-107: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 19:19:48,337 [Worker-107: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 7 resources
+2023-09-26 19:20:53,424 [Worker-105: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 19:20:53,428 [Worker-105: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-09-26 19:20:53,430 [Worker-105: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 19:20:53,435 [Worker-105: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 7 resources
+2023-09-26 19:21:29,099 [Worker-105: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 19:21:29,100 [Worker-105: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-09-26 19:21:29,101 [Worker-105: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 19:21:29,103 [Worker-105: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 7 resources
+2023-09-26 19:21:40,779 [Worker-107: Launching DataDriven_src.test.resources.runner.testng.xml] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 19:21:40,783 [Worker-107: Launching DataDriven_src.test.resources.runner.testng.xml] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-09-26 19:21:40,785 [Worker-107: Launching DataDriven_src.test.resources.runner.testng.xml] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 19:21:40,791 [Worker-107: Launching DataDriven_src.test.resources.runner.testng.xml] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 7 resources
+2023-09-26 19:27:52,458 [Worker-105: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 19:27:52,460 [Worker-105: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-09-26 19:27:52,462 [Worker-105: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 19:27:52,463 [Worker-105: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 7 resources
+2023-09-26 19:27:52,898 [Worker-105: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 19:27:52,899 [Worker-105: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-09-26 19:27:52,901 [Worker-105: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 19:27:52,902 [Worker-105: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 6 resources
+2023-09-26 19:33:00,167 [Worker-116: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 19:33:00,168 [Worker-116: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-09-26 19:33:00,169 [Worker-116: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 19:33:00,170 [Worker-116: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-09-26 19:33:36,430 [Worker-114: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "D:\AutomationFramework\DataDriven":
+2023-09-26 19:33:36,431 [Worker-114: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always clean
+2023-09-26 19:33:48,605 [Worker-112: Launching Executing clean in D__AutomationFramework_PageObjectModel] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "D:\AutomationFramework\PageObjectModel":
+2023-09-26 19:33:48,606 [Worker-112: Launching Executing clean in D__AutomationFramework_PageObjectModel] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always clean
+2023-09-26 19:35:00,868 [Worker-112: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 19:35:00,869 [Worker-112: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-09-26 19:35:00,871 [Worker-112: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-26 19:35:00,872 [Worker-112: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-10-04 14:45:27,677 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-10-04 14:45:42,536 [Worker-3: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.brainzhive:PageObjectModel:0.0.1-SNAPSHOT @ D:\AutomationFramework\PageObjectModel\pom.xml.
+2023-10-04 14:45:42,973 [Worker-3: Updating Maven Dependencies] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.3 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2023-10-04 14:45:42,982 [Worker-3: Updating Maven Dependencies] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.4 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2023-10-04 14:45:42,988 [Worker-3: Updating Maven Dependencies] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.5 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2023-10-04 14:45:43,358 [Worker-3: Updating Maven Dependencies] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.beust:jcommander:jar:1.66 is missing, no dependency information available
+2023-10-04 14:45:44,874 [Worker-3: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.brainzhive:DataDriven:0.0.1-SNAPSHOT @ D:\AutomationFramework\DataDriven\pom.xml.
+2023-10-04 14:47:09,546 [Worker-8: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 14:47:09,601 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-10-04 14:47:09,609 [Worker-8: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 14:47:09,627 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 7 resources
+2023-10-04 14:49:21,595 [Worker-13: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 14:49:21,624 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-10-04 14:49:21,628 [Worker-13: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 14:49:21,907 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 7 resources
+2023-10-04 14:49:34,499 [Worker-6: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 14:49:34,528 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-10-04 14:49:34,535 [Worker-6: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 14:49:34,548 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 7 resources
+2023-10-04 14:49:47,290 [Worker-12: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 14:49:47,391 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-10-04 14:49:47,399 [Worker-12: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 14:49:47,413 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 7 resources
+2023-10-04 14:50:59,123 [Worker-1: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 14:50:59,129 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-10-04 14:50:59,136 [Worker-1: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 14:50:59,264 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 7 resources
+2023-10-04 14:54:00,213 [Worker-7: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 14:54:00,220 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-10-04 14:54:00,224 [Worker-7: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 14:54:00,241 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 7 resources
+2023-10-04 14:54:20,486 [Worker-12: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 14:54:20,490 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-10-04 14:54:20,493 [Worker-12: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 14:54:20,505 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 7 resources
+2023-10-04 14:56:09,580 [Worker-4: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558 [616])
+2023-10-04 14:56:09,587 [Worker-4: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558
+2023-10-04 14:56:09,587 [Worker-4: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\aether-connector-okhttp-0.17.8.jar
+2023-10-04 14:56:09,588 [Worker-4: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\aopalliance-1.0.jar
+2023-10-04 14:56:09,588 [Worker-4: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\commons-lang3-3.8.1.jar
+2023-10-04 14:56:09,588 [Worker-4: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\failureaccess-1.0.1.jar
+2023-10-04 14:56:09,588 [Worker-4: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\guava-30.1-jre.jar
+2023-10-04 14:56:09,589 [Worker-4: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\guice-5.1.0.jar
+2023-10-04 14:56:09,589 [Worker-4: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\jansi-2.4.0.jar
+2023-10-04 14:56:09,589 [Worker-4: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\maven-artifact-3.9.1.jar
+2023-10-04 14:56:09,589 [Worker-4: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\maven-builder-support-3.9.1.jar
+2023-10-04 14:56:09,589 [Worker-4: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\maven-compat-3.9.1.jar
+2023-10-04 14:56:09,589 [Worker-4: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\maven-core-3.9.1.jar
+2023-10-04 14:56:09,590 [Worker-4: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\maven-embedder-3.9.1.jar
+2023-10-04 14:56:09,590 [Worker-4: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\maven-model-3.9.1.jar
+2023-10-04 14:56:09,590 [Worker-4: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\maven-model-builder-3.9.1.jar
+2023-10-04 14:56:09,590 [Worker-4: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\maven-plugin-api-3.9.1.jar
+2023-10-04 14:56:09,591 [Worker-4: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\maven-repository-metadata-3.9.1.jar
+2023-10-04 14:56:09,591 [Worker-4: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\maven-resolver-api-1.9.7.jar
+2023-10-04 14:56:09,591 [Worker-4: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\maven-resolver-connector-basic-1.9.7.jar
+2023-10-04 14:56:09,591 [Worker-4: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\maven-resolver-impl-1.9.7.jar
+2023-10-04 14:56:09,591 [Worker-4: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\maven-resolver-named-locks-1.9.7.jar
+2023-10-04 14:56:09,591 [Worker-4: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\maven-resolver-provider-3.9.1.jar
+2023-10-04 14:56:09,591 [Worker-4: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\maven-resolver-spi-1.9.7.jar
+2023-10-04 14:56:09,592 [Worker-4: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\maven-resolver-transport-wagon-1.9.7.jar
+2023-10-04 14:56:09,592 [Worker-4: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\maven-resolver-util-1.9.7.jar
+2023-10-04 14:56:09,592 [Worker-4: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\maven-settings-3.9.1.jar
+2023-10-04 14:56:09,593 [Worker-4: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\maven-settings-builder-3.9.1.jar
+2023-10-04 14:56:09,593 [Worker-4: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\maven-shared-utils-3.3.4.jar
+2023-10-04 14:56:09,594 [Worker-4: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\okhttp-3.14.1.jar
+2023-10-04 14:56:09,594 [Worker-4: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\okio-1.17.3.jar
+2023-10-04 14:56:09,595 [Worker-4: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\org.eclipse.sisu.inject-0.3.5.jar
+2023-10-04 14:56:09,596 [Worker-4: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\org.eclipse.sisu.plexus-0.3.5.jar
+2023-10-04 14:56:09,597 [Worker-4: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\plexus-build-api-0.0.7.jar
+2023-10-04 14:56:09,597 [Worker-4: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\plexus-cipher-2.0.jar
+2023-10-04 14:56:09,597 [Worker-4: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\plexus-classworlds-2.6.0.jar
+2023-10-04 14:56:09,598 [Worker-4: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\plexus-component-annotations-2.1.0.jar
+2023-10-04 14:56:09,598 [Worker-4: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\plexus-interpolation-1.26.jar
+2023-10-04 14:56:09,598 [Worker-4: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\plexus-sec-dispatcher-2.0.jar
+2023-10-04 14:56:09,598 [Worker-4: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\plexus-utils-3.5.1.jar
+2023-10-04 14:56:09,598 [Worker-4: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\wagon-file-3.5.3.jar
+2023-10-04 14:56:09,599 [Worker-4: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\wagon-provider-api-3.5.3.jar
+2023-10-04 14:56:09,600 [Worker-4: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava_31.1.0.jre [13])
+2023-10-04 14:56:09,601 [Worker-4: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\com.google.guava_31.1.0.jre.jar
+2023-10-04 14:56:09,601 [Worker-4: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=slf4j.api_1.7.36 [983])
+2023-10-04 14:56:09,615 [Worker-4: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\slf4j.api_1.7.36.jar
+2023-10-04 14:56:09,617 [Worker-4: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.inject_1.0.0.v20220405-0441 [37])
+2023-10-04 14:56:09,647 [Worker-4: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\javax.inject_1.0.0.v20220405-0441.jar
+2023-10-04 14:56:09,647 [Worker-4: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.annotation_1.3.5.v20230504-0748 [35])
+2023-10-04 14:56:09,672 [Worker-4: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\javax.annotation_1.3.5.v20230504-0748.jar
+2023-10-04 14:56:09,673 [Worker-4: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.cli_1.5.0 [69])
+2023-10-04 14:56:09,696 [Worker-4: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.apache.commons.cli_1.5.0.jar
+2023-10-04 14:56:09,696 [Worker-4: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava.failureaccess_1.0.1 [14])
+2023-10-04 14:56:09,699 [Worker-4: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\com.google.guava.failureaccess_1.0.1.jar
+2023-10-04 14:56:09,704 [Worker-4: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "D:\AutomationFramework\DataDriven":
+2023-10-04 14:56:09,760 [Worker-4: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always clean
+2023-10-04 14:57:11,769 [Worker-4: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 14:57:11,794 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-10-04 14:57:11,800 [Worker-4: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 14:57:11,804 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 7 resources
+2023-10-04 14:58:27,896 [Worker-7: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 14:58:27,897 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-10-04 14:58:27,900 [Worker-7: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 14:58:27,903 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 7 resources
+2023-10-04 14:58:46,027 [Worker-12: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 14:58:46,033 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-10-04 14:58:46,035 [Worker-12: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 14:58:46,039 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 7 resources
+2023-10-04 14:59:25,688 [Worker-12: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 14:59:25,751 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-10-04 14:59:25,755 [Worker-12: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 14:59:25,838 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 7 resources
+2023-10-04 15:21:21,699 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-10-04 15:24:15,926 [Worker-11: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 15:24:15,937 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-10-04 15:24:15,945 [Worker-11: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 15:24:15,947 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 7 resources
+2023-10-04 15:24:31,935 [Worker-2: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 15:24:31,944 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-10-04 15:24:31,948 [Worker-2: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 15:24:31,955 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 7 resources
+2023-10-04 15:25:28,140 [Worker-6: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 15:25:28,315 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-10-04 15:25:28,327 [Worker-6: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 15:25:28,354 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 7 resources
+2023-10-04 15:25:42,287 [Worker-11: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 15:25:42,319 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-10-04 15:25:42,322 [Worker-11: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 15:25:42,327 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 7 resources
+2023-10-04 15:25:55,366 [Worker-13: reload maven project] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.3 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2023-10-04 15:25:55,372 [Worker-13: reload maven project] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.4 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2023-10-04 15:25:55,376 [Worker-13: reload maven project] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.5 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2023-10-04 15:25:55,606 [Worker-13: reload maven project] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.beust:jcommander:jar:1.66 is missing, no dependency information available
+2023-10-04 15:27:12,024 [Worker-13: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.brainzhive:DataDriven:0.0.1-SNAPSHOT @ D:\AutomationFramework\DataDriven\pom.xml.
+2023-10-04 15:27:12,826 [Worker-13: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 15:27:12,831 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-10-04 15:27:12,838 [Worker-13: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 15:27:12,839 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-10-04 15:27:38,994 [Worker-1: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 15:27:39,019 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-10-04 15:27:39,029 [Worker-1: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 15:27:39,038 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 7 resources
+2023-10-04 15:28:09,325 [Worker-8: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 15:28:09,351 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-10-04 15:28:09,355 [Worker-8: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 15:28:09,374 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 7 resources
+2023-10-04 15:28:43,419 [Worker-6: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 15:28:43,423 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-10-04 15:28:43,427 [Worker-6: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 15:28:43,438 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 7 resources
+2023-10-04 15:29:05,034 [Worker-9: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 15:29:05,061 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-10-04 15:29:05,065 [Worker-9: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 15:29:05,068 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 7 resources
+2023-10-04 15:29:09,613 [Worker-8: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 15:29:09,622 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-10-04 15:29:09,624 [Worker-8: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 15:29:09,629 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 7 resources
+2023-10-04 15:29:30,374 [Worker-11: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 15:29:30,381 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-10-04 15:29:30,385 [Worker-11: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 15:29:30,400 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 7 resources
+2023-10-04 15:29:39,148 [Worker-13: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 15:29:39,261 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-10-04 15:29:39,269 [Worker-13: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 15:29:39,325 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 7 resources
+2023-10-04 15:29:52,596 [Worker-8: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 15:29:52,617 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-10-04 15:29:52,620 [Worker-8: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 15:29:52,622 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 7 resources
+2023-10-04 15:30:06,442 [Worker-13: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 15:30:06,450 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-10-04 15:30:06,452 [Worker-13: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 15:30:06,456 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 7 resources
+2023-10-04 15:30:11,239 [Worker-13: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 15:30:11,309 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-10-04 15:30:11,312 [Worker-13: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 15:30:11,317 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 7 resources
+2023-10-04 15:30:19,298 [Worker-1: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 15:30:19,302 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-10-04 15:30:19,305 [Worker-1: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 15:30:19,308 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 7 resources
+2023-10-04 15:30:23,244 [Worker-8: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 15:30:23,274 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-10-04 15:30:23,276 [Worker-8: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 15:30:23,286 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 7 resources
+2023-10-04 15:30:48,920 [Worker-9: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 15:30:48,924 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-10-04 15:30:48,927 [Worker-9: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 15:30:48,930 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 7 resources
+2023-10-04 15:31:17,479 [Worker-13: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 15:31:17,482 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-10-04 15:31:17,485 [Worker-13: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 15:31:17,489 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 7 resources
+2023-10-04 15:31:24,589 [Worker-13: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 15:31:24,593 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-10-04 15:31:24,597 [Worker-13: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 15:31:24,600 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 7 resources
+2023-10-04 15:31:38,381 [Worker-0: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 15:31:38,533 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-10-04 15:31:38,537 [Worker-0: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 15:31:38,548 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-10-04 15:32:21,010 [Worker-9: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 15:32:21,035 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-10-04 15:32:21,038 [Worker-9: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 15:32:21,058 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 7 resources
+2023-10-04 15:32:58,760 [Worker-2: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 15:32:58,784 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-10-04 15:32:58,794 [Worker-2: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 15:32:58,800 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 7 resources
+2023-10-04 15:33:10,130 [Worker-13: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 15:33:10,132 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-10-04 15:33:10,135 [Worker-13: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 15:33:10,139 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 7 resources
+2023-10-04 15:33:16,412 [Worker-8: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 15:33:16,413 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-10-04 15:33:16,416 [Worker-8: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 15:33:16,422 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 7 resources
+2023-10-04 15:34:03,769 [Worker-10: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 15:34:03,772 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-10-04 15:34:03,775 [Worker-10: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 15:34:03,777 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 7 resources
+2023-10-04 15:34:54,043 [Worker-9: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 15:34:54,048 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-10-04 15:34:54,051 [Worker-9: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 15:34:54,058 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 7 resources
+2023-10-04 15:35:09,559 [Worker-10: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 15:35:09,635 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-10-04 15:35:09,639 [Worker-10: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 15:35:09,677 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 7 resources
+2023-10-04 15:35:34,933 [Worker-8: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 15:35:34,981 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-10-04 15:35:34,983 [Worker-8: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 15:35:35,002 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 7 resources
+2023-10-04 15:35:46,350 [Worker-2: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 15:35:46,356 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-10-04 15:35:46,358 [Worker-2: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 15:35:46,371 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 7 resources
+2023-10-04 15:35:53,551 [Worker-8: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 15:35:53,555 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-10-04 15:35:53,558 [Worker-8: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 15:35:53,561 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 7 resources
+2023-10-04 15:35:55,079 [Worker-15: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 15:35:55,085 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-10-04 15:35:55,087 [Worker-15: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 15:35:55,090 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 7 resources
+2023-10-04 15:35:59,343 [Worker-13: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 15:35:59,344 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-10-04 15:35:59,346 [Worker-13: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 15:35:59,350 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 7 resources
+2023-10-04 15:36:20,628 [Worker-8: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 15:36:20,629 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-10-04 15:36:20,632 [Worker-8: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 15:36:20,635 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 7 resources
+2023-10-04 15:36:42,425 [Worker-2: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 15:36:42,433 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-10-04 15:36:42,435 [Worker-2: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 15:36:42,438 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 7 resources
+2023-10-04 15:37:22,257 [Worker-9: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 15:37:22,264 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-10-04 15:37:22,268 [Worker-9: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 15:37:22,274 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 7 resources
+2023-10-04 15:37:36,243 [Worker-1: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 15:37:36,244 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-10-04 15:37:36,247 [Worker-1: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 15:37:36,249 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 7 resources
+2023-10-04 15:37:49,805 [Worker-11: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 15:37:49,812 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-10-04 15:37:49,816 [Worker-11: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 15:37:49,819 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 7 resources
+2023-10-04 15:38:02,780 [Worker-17: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 15:38:02,837 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-10-04 15:38:02,839 [Worker-17: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 15:38:02,845 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 7 resources
+2023-10-04 15:38:34,304 [Worker-2: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 15:38:34,332 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-10-04 15:38:34,335 [Worker-2: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 15:38:34,378 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 7 resources
+2023-10-04 15:38:58,397 [Worker-2: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 15:38:58,401 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-10-04 15:38:58,403 [Worker-2: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 15:38:58,408 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 7 resources
+2023-10-04 15:39:40,220 [Worker-10: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558 [616])
+2023-10-04 15:39:40,223 [Worker-10: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558
+2023-10-04 15:39:40,224 [Worker-10: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\aether-connector-okhttp-0.17.8.jar
+2023-10-04 15:39:40,224 [Worker-10: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\aopalliance-1.0.jar
+2023-10-04 15:39:40,224 [Worker-10: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\commons-lang3-3.8.1.jar
+2023-10-04 15:39:40,224 [Worker-10: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\failureaccess-1.0.1.jar
+2023-10-04 15:39:40,224 [Worker-10: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\guava-30.1-jre.jar
+2023-10-04 15:39:40,225 [Worker-10: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\guice-5.1.0.jar
+2023-10-04 15:39:40,225 [Worker-10: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\jansi-2.4.0.jar
+2023-10-04 15:39:40,225 [Worker-10: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\maven-artifact-3.9.1.jar
+2023-10-04 15:39:40,225 [Worker-10: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\maven-builder-support-3.9.1.jar
+2023-10-04 15:39:40,225 [Worker-10: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\maven-compat-3.9.1.jar
+2023-10-04 15:39:40,225 [Worker-10: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\maven-core-3.9.1.jar
+2023-10-04 15:39:40,225 [Worker-10: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\maven-embedder-3.9.1.jar
+2023-10-04 15:39:40,226 [Worker-10: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\maven-model-3.9.1.jar
+2023-10-04 15:39:40,226 [Worker-10: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\maven-model-builder-3.9.1.jar
+2023-10-04 15:39:40,226 [Worker-10: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\maven-plugin-api-3.9.1.jar
+2023-10-04 15:39:40,226 [Worker-10: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\maven-repository-metadata-3.9.1.jar
+2023-10-04 15:39:40,226 [Worker-10: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\maven-resolver-api-1.9.7.jar
+2023-10-04 15:39:40,226 [Worker-10: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\maven-resolver-connector-basic-1.9.7.jar
+2023-10-04 15:39:40,227 [Worker-10: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\maven-resolver-impl-1.9.7.jar
+2023-10-04 15:39:40,227 [Worker-10: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\maven-resolver-named-locks-1.9.7.jar
+2023-10-04 15:39:40,227 [Worker-10: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\maven-resolver-provider-3.9.1.jar
+2023-10-04 15:39:40,227 [Worker-10: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\maven-resolver-spi-1.9.7.jar
+2023-10-04 15:39:40,227 [Worker-10: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\maven-resolver-transport-wagon-1.9.7.jar
+2023-10-04 15:39:40,227 [Worker-10: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\maven-resolver-util-1.9.7.jar
+2023-10-04 15:39:40,228 [Worker-10: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\maven-settings-3.9.1.jar
+2023-10-04 15:39:40,228 [Worker-10: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\maven-settings-builder-3.9.1.jar
+2023-10-04 15:39:40,228 [Worker-10: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\maven-shared-utils-3.3.4.jar
+2023-10-04 15:39:40,228 [Worker-10: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\okhttp-3.14.1.jar
+2023-10-04 15:39:40,228 [Worker-10: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\okio-1.17.3.jar
+2023-10-04 15:39:40,228 [Worker-10: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\org.eclipse.sisu.inject-0.3.5.jar
+2023-10-04 15:39:40,229 [Worker-10: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\org.eclipse.sisu.plexus-0.3.5.jar
+2023-10-04 15:39:40,229 [Worker-10: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\plexus-build-api-0.0.7.jar
+2023-10-04 15:39:40,229 [Worker-10: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\plexus-cipher-2.0.jar
+2023-10-04 15:39:40,229 [Worker-10: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\plexus-classworlds-2.6.0.jar
+2023-10-04 15:39:40,229 [Worker-10: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\plexus-component-annotations-2.1.0.jar
+2023-10-04 15:39:40,230 [Worker-10: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\plexus-interpolation-1.26.jar
+2023-10-04 15:39:40,230 [Worker-10: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\plexus-sec-dispatcher-2.0.jar
+2023-10-04 15:39:40,230 [Worker-10: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\plexus-utils-3.5.1.jar
+2023-10-04 15:39:40,230 [Worker-10: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\wagon-file-3.5.3.jar
+2023-10-04 15:39:40,230 [Worker-10: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\wagon-provider-api-3.5.3.jar
+2023-10-04 15:39:40,232 [Worker-10: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava_31.1.0.jre [13])
+2023-10-04 15:39:40,233 [Worker-10: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\com.google.guava_31.1.0.jre.jar
+2023-10-04 15:39:40,233 [Worker-10: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=slf4j.api_1.7.36 [983])
+2023-10-04 15:39:40,234 [Worker-10: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\slf4j.api_1.7.36.jar
+2023-10-04 15:39:40,234 [Worker-10: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.inject_1.0.0.v20220405-0441 [37])
+2023-10-04 15:39:40,235 [Worker-10: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\javax.inject_1.0.0.v20220405-0441.jar
+2023-10-04 15:39:40,235 [Worker-10: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.annotation_1.3.5.v20230504-0748 [35])
+2023-10-04 15:39:40,236 [Worker-10: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\javax.annotation_1.3.5.v20230504-0748.jar
+2023-10-04 15:39:40,236 [Worker-10: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.cli_1.5.0 [69])
+2023-10-04 15:39:40,238 [Worker-10: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\org.apache.commons.cli_1.5.0.jar
+2023-10-04 15:39:40,238 [Worker-10: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava.failureaccess_1.0.1 [14])
+2023-10-04 15:39:40,238 [Worker-10: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2023-06-R-win32-x86_64\eclipse\plugins\com.google.guava.failureaccess_1.0.1.jar
+2023-10-04 15:39:40,242 [Worker-10: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "D:\AutomationFramework\DataDriven":
+2023-10-04 15:39:40,247 [Worker-10: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always clean
+2023-10-04 15:39:54,183 [Worker-2: Launching Executing test in D__AutomationFramework_DataDriven] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "D:\AutomationFramework\DataDriven":
+2023-10-04 15:39:54,183 [Worker-2: Launching Executing test in D__AutomationFramework_DataDriven] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always test
+2023-10-04 15:40:36,768 [Worker-1: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 15:40:36,770 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-10-04 15:40:36,772 [Worker-1: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 15:40:36,774 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 7 resources
+2023-10-04 15:41:15,879 [Worker-15: Launching Executing clean in D__AutomationFramework_PageObjectModel] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "D:\AutomationFramework\PageObjectModel":
+2023-10-04 15:41:15,880 [Worker-15: Launching Executing clean in D__AutomationFramework_PageObjectModel] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always clean
+2023-10-04 15:41:27,427 [Worker-14: Launching Executing test in D__AutomationFramework_PageObjectModel] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "D:\AutomationFramework\PageObjectModel":
+2023-10-04 15:41:27,427 [Worker-14: Launching Executing test in D__AutomationFramework_PageObjectModel] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always test
+2023-10-04 15:44:20,910 [Worker-16: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 15:44:20,911 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-10-04 15:44:20,913 [Worker-16: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 15:44:20,915 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 6 resources
+2023-10-04 15:53:02,277 [Worker-18: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 15:53:02,280 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-10-04 15:53:02,282 [Worker-18: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 15:53:02,285 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 6 resources
+2023-10-04 15:53:09,461 [Worker-15: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 15:53:09,471 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-10-04 15:53:09,473 [Worker-15: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 15:53:09,490 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 6 resources
+2023-10-04 15:56:02,280 [Worker-19: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 15:56:02,289 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-10-04 15:56:02,291 [Worker-19: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 15:56:02,308 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 6 resources
+2023-10-04 15:56:42,039 [Worker-18: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 15:56:42,078 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-10-04 15:56:42,081 [Worker-18: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 15:56:42,082 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-10-04 15:59:37,194 [Worker-6: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 15:59:37,196 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-10-04 15:59:37,199 [Worker-6: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 15:59:37,201 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-10-04 16:06:59,282 [Worker-14: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 16:06:59,283 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-10-04 16:06:59,286 [Worker-14: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 16:06:59,289 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 6 resources
+2023-10-04 16:07:07,908 [Worker-18: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 16:07:07,920 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-10-04 16:07:07,922 [Worker-18: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 16:07:07,925 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 6 resources
+2023-10-04 16:07:26,555 [Worker-18: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 16:07:26,562 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-10-04 16:07:26,564 [Worker-18: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 16:07:26,592 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-10-04 16:13:30,802 [Worker-18: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 16:13:30,804 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-10-04 16:13:30,806 [Worker-18: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 16:13:30,809 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-10-04 16:13:59,126 [Worker-14: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 16:13:59,130 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-10-04 16:13:59,132 [Worker-14: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 16:13:59,160 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-10-04 16:16:06,019 [Worker-20: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 16:16:06,022 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-10-04 16:16:06,024 [Worker-20: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 16:16:06,028 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 6 resources
+2023-10-04 16:16:37,514 [Worker-14: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 16:16:37,703 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-10-04 16:16:37,705 [Worker-14: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 16:16:37,738 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 6 resources
+2023-10-04 16:17:13,618 [Worker-6: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 16:17:13,620 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-10-04 16:17:13,622 [Worker-6: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 16:17:13,629 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 6 resources
+2023-10-04 16:19:02,313 [Worker-24: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 16:19:02,338 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-10-04 16:19:02,340 [Worker-24: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 16:19:02,352 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-10-04 16:19:43,138 [Worker-23: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 16:19:43,145 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-10-04 16:19:43,148 [Worker-23: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 16:19:43,150 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-10-04 16:20:55,675 [Worker-20: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 16:20:55,680 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-10-04 16:20:55,682 [Worker-20: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 16:20:55,684 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 6 resources
+2023-10-04 16:21:05,333 [Worker-6: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 16:21:05,336 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-10-04 16:21:05,339 [Worker-6: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 16:21:05,348 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-10-04 16:21:11,264 [Worker-20: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 16:21:11,280 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-10-04 16:21:11,282 [Worker-20: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 16:21:11,290 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 6 resources
+2023-10-04 16:37:03,471 [Worker-6: Launching Executing clean in D__AutomationFramework_PageObjectModel] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "D:\AutomationFramework\PageObjectModel":
+2023-10-04 16:37:03,472 [Worker-6: Launching Executing clean in D__AutomationFramework_PageObjectModel] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always clean
+2023-10-04 16:37:08,671 [Worker-6: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 16:37:08,677 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-10-04 16:37:08,679 [Worker-6: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 16:37:08,688 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 6 resources
+2023-10-04 16:37:15,854 [Worker-30: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "D:\AutomationFramework\DataDriven":
+2023-10-04 16:37:15,854 [Worker-30: Launching Executing clean in D__AutomationFramework_DataDriven] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always clean
+2023-10-04 16:42:21,911 [Worker-32: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 16:42:21,912 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-10-04 16:42:21,915 [Worker-32: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 16:42:21,916 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-10-04 16:42:21,996 [Worker-32: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 16:42:21,997 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-10-04 16:42:21,999 [Worker-32: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-04 16:42:22,000 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource

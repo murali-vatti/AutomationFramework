@@ -7,6 +7,7 @@ import java.util.Date;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebElement;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
@@ -60,7 +61,7 @@ public class ExtentManager {
 			 
 			
 		}
-		/*
+	
 		
 
 		public static void captureElementScreenshot(WebElement element) throws IOException {
@@ -74,7 +75,7 @@ public class ExtentManager {
 			FileUtils.copyFile(screeshot, new File(".//screenshot//"+"Element_"+fileName));
 		}
 
-	 */
+	
 
 
 	}

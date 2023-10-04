@@ -8,8 +8,7 @@ import org.openqa.selenium.support.FindBy;
 import base.BasePage;
 
 public class HomePage extends BasePage {
-	
-	
+
 	
 	public HomePage(WebDriver driver) {
 		super(driver);
@@ -27,7 +26,7 @@ public class HomePage extends BasePage {
 	
 	@FindBy(xpath = "//div[normalize-space()='NEW CARS']")
 	public WebElement menu;
-	
+			
 	@FindBy(xpath = "//div[contains(text(),'Find New Cars')]")
 	public WebElement findNewCars;
 	

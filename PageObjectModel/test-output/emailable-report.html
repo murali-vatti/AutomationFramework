@@ -1,5 +1,5 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
 <title>TestNG Report</title>
@@ -7,24 +7,24 @@
 </head>
 <body>
 <table>
-<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="7">TestNG Framework</th></tr>
-<tr><td><a href="#t0">Find New Cars Test</a></td><td class="num">2</td><td class="num">0</td><td class="num attn">2</td><td class="num">75,072</td><td></td><td></td></tr>
-<tr class="stripe"><td><a href="#t1">Car Name and Price Test</a></td><td class="num">0</td><td class="num attn">4</td><td class="num">0</td><td class="num">277</td><td></td><td></td></tr>
-<tr><th>Total</th><th class="num">2</th><th class="num attn">4</th><th class="num attn">2</th><th class="num">75,349</th><th colspan="2"></th></tr>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">TestNG Framework</th></tr>
+<tr><td><a href="#t0">Find New Cars Test</a></td><td class="num">4</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">89,740</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Car Name and Price Test</a></td><td class="num">5</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">87,684</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">9</th><th class="num">0</th><th class="num">0</th><th class="num attn">1</th><th class="num">177,424</th><th colspan="2"></th></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">TestNG Framework</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Find New Cars Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">testcases.FindNewCarsTest</td><td><a href="#m0">findNewCarTest</a></td><td rowspan="2">1694498604829</td><td rowspan="2">22418</td></tr><tr class="failedeven"><td><a href="#m1">findNewCarTest</a></td></tr><tr><th colspan="4">Find New Cars Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">testcases.FindNewCarsTest</td><td><a href="#m2">findNewCarTest</a></td><td rowspan="2">1694498587823</td><td rowspan="2">16038</td></tr><tr class="passedeven"><td><a href="#m3">findNewCarTest</a></td></tr></tbody>
-<tbody id="t1"><tr><th colspan="4">Car Name and Price Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="4">testcases.CarNameAndPriceTest</td><td><a href="#m4">carNameAndPrice</a></td><td rowspan="4">1694498629362</td><td rowspan="4">20</td></tr><tr class="skippedeven"><td><a href="#m5">carNameAndPrice</a></td></tr><tr class="skippedeven"><td><a href="#m6">carNameAndPrice</a></td></tr><tr class="skippedeven"><td><a href="#m7">carNameAndPrice</a></td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">TestNG Framework</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Find New Cars Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">testcases.FindNewCarsTest</td><td><a href="#m0">findNewCarTest</a></td><td rowspan="1">1696416731823</td><td rowspan="1">30452</td></tr><tr><th colspan="4">Find New Cars Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">testcases.FindNewCarsTest</td><td><a href="#m1">findNewCarTest</a></td><td rowspan="4">1696416763083</td><td rowspan="4">12505</td></tr><tr class="passedeven"><td><a href="#m2">findNewCarTest</a></td></tr><tr class="passedeven"><td><a href="#m3">findNewCarTest</a></td></tr><tr class="passedeven"><td><a href="#m4">findNewCarTest</a></td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Car Name and Price Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="5">testcases.CarNameAndPriceTest</td><td><a href="#m5">carNameAndPrice</a></td><td rowspan="5">1696416792290</td><td rowspan="5">30452</td></tr><tr class="passedeven"><td><a href="#m6">carNameAndPrice</a></td></tr><tr class="passedeven"><td><a href="#m7">carNameAndPrice</a></td></tr><tr class="passedeven"><td><a href="#m8">carNameAndPrice</a></td></tr><tr class="passedeven"><td><a href="#m9">carNameAndPrice</a></td></tr></tbody>
 </table>
-<h2>Find New Cars Test</h2><h3 id="m0">testcases.FindNewCarsTest#findNewCarTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>chrome</td><td>Y</td><td>kia</td><td>Kia Cars</td></tr><tr><th colspan="4">Exception</th></tr><tr><td colspan="4"><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[contains(text(),&apos;Find New Cars&apos;)]&quot;}
-  (Session info: chrome=116.0.5845.187)
+<h2>Find New Cars Test</h2><h3 id="m0">testcases.FindNewCarsTest#findNewCarTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>chrome</td><td>Y</td><td>honda</td><td>Honda Cars</td></tr><tr><th colspan="4">Exception</th></tr><tr><td colspan="4"><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;root&quot;]/div[2]/div/div[2]/div/h1&quot;}
+  (Session info: chrome=117.0.5938.134)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.12.1&apos;, revision: &apos;8e34639b11&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [1bc41c7d772fc1cf74ae3415f750e5d6, findElement {using=xpath, value=//div[contains(text(),&apos;Find New Cars&apos;)]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.187, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59268}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59268/devtoo..., se:cdpVersion: 116.0.5845.187, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 1bc41c7d772fc1cf74ae3415f750e5d6
+Command: [27b99da855b2b94a6216f7b30f73bb97, findElement {using=xpath, value=//*[@id=&quot;root&quot;]/div[2]/div/div[2]/div/h1}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.134, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56154}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56154/devtoo..., se:cdpVersion: 117.0.5938.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 27b99da855b2b94a6216f7b30f73bb97
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
@@ -38,27 +38,19 @@ Session ID: 1bc41c7d772fc1cf74ae3415f750e5d6
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy17.click(Unknown Source)
-	at pages.HomePage.goToFindNewCars(HomePage.java:41)
-	at testcases.FindNewCarsTest.findNewCarTest(FindNewCarsTest.java:31)
-... Removed 30 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">testcases.FindNewCarsTest#findNewCarTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>chrome</td><td>Y</td><td>honda</td><td>Ho Cars</td></tr><tr><th colspan="4">Exception</th></tr><tr><td colspan="4"><div class="stacktrace">java.lang.AssertionError: The following asserts failed:
-	Title is not Matching expected [Ho Cars] but found [Honda Cars]
-	at testcases.FindNewCarsTest.findNewCarTest(FindNewCarsTest.java:61)
-... Removed 26 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">testcases.FindNewCarsTest#findNewCarTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>chrome</td><td>Y</td><td>toyota</td><td>Toyota Cars</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">testcases.FindNewCarsTest#findNewCarTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>chrome</td><td>Y</td><td>bmw</td><td>BMW Cars</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>Car Name and Price Test</h2><h3 id="m4">testcases.CarNameAndPriceTest#carNameAndPrice</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>chrome</td><td>N</td><td>toyota</td></tr><tr><th colspan="3">Exception</th></tr><tr><td colspan="3"><div class="stacktrace">org.testng.SkipException: Skipping the test as the run mode is No
-	at testcases.CarNameAndPriceTest.carNameAndPrice(CarNameAndPriceTest.java:19)
-... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">testcases.CarNameAndPriceTest#carNameAndPrice</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>chrome</td><td>N</td><td>honda</td></tr><tr><th colspan="3">Exception</th></tr><tr><td colspan="3"><div class="stacktrace">org.testng.SkipException: Skipping the test as the run mode is No
-	at testcases.CarNameAndPriceTest.carNameAndPrice(CarNameAndPriceTest.java:19)
-... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m6">testcases.CarNameAndPriceTest#carNameAndPrice</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>chrome</td><td>N</td><td>bmw</td></tr><tr><th colspan="3">Exception</th></tr><tr><td colspan="3"><div class="stacktrace">org.testng.SkipException: Skipping the test as the run mode is No
-	at testcases.CarNameAndPriceTest.carNameAndPrice(CarNameAndPriceTest.java:19)
-... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m7">testcases.CarNameAndPriceTest#carNameAndPrice</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>chrome</td><td>N</td><td>kia</td></tr><tr><th colspan="3">Exception</th></tr><tr><td colspan="3"><div class="stacktrace">org.testng.SkipException: Skipping the test as the run mode is No
-	at testcases.CarNameAndPriceTest.carNameAndPrice(CarNameAndPriceTest.java:19)
-... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+	at jdk.proxy2/jdk.proxy2.$Proxy17.getText(Unknown Source)
+	at base.CarBase.getCarTitle(CarBase.java:30)
+	at testcases.FindNewCarsTest.findNewCarTest(FindNewCarsTest.java:69)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">testcases.FindNewCarsTest#findNewCarTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>chrome</td><td>Y</td><td>tata</td><td>Tata Cars</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">testcases.FindNewCarsTest#findNewCarTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>chrome</td><td>Y</td><td>bmw</td><td>BMW Cars</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">testcases.FindNewCarsTest#findNewCarTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>chrome</td><td>Y</td><td>kia</td><td>Kia Cars</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">testcases.FindNewCarsTest#findNewCarTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>chrome</td><td>Y</td><td>toyota</td><td>Toyota Cars</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Car Name and Price Test</h2><h3 id="m5">testcases.CarNameAndPriceTest#carNameAndPrice</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>chrome</td><td>Y</td><td>honda</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">testcases.CarNameAndPriceTest#carNameAndPrice</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>chrome</td><td>Y</td><td>kia</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">testcases.CarNameAndPriceTest#carNameAndPrice</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>chrome</td><td>Y</td><td>tata</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">testcases.CarNameAndPriceTest#carNameAndPrice</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>chrome</td><td>Y</td><td>toyota</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">testcases.CarNameAndPriceTest#carNameAndPrice</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>chrome</td><td>Y</td><td>bmw</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

@@ -3,11 +3,8 @@ package com.brainzhive.base;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.sql.SQLException;
 import java.time.Duration;
-import java.util.Iterator;
 import java.util.Properties;
-import java.util.Set;
 
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
@@ -22,10 +19,10 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 
-import com.brainzhive.extentlisteners.ExtentManager;
-import com.brainzhive.utilities.DbManager;
+import com.brainzhive.extentlisteners.ExtentListeners;
 import com.brainzhive.utilities.ExcelReader;
 import com.brainzhive.utilities.MonitoringMail;
+
 
 public class BaseTest {
 
@@ -56,8 +53,8 @@ public class BaseTest {
 
 		}
 
-		// log.info("Clicking on an Element : " + locatorKey);
-		// ExtentListeners.test.info("Clicking on an Element : " + locatorKey);
+		 log.info("Clicking on an Element : " + locatorKey);
+		 ExtentListeners.test.info("Clicking on an Element : " + locatorKey);
 
 	}
 
@@ -79,15 +76,15 @@ public class BaseTest {
 			}
 		} catch (Throwable t) {
 
-			// log.info("Error while finding an Element : " + locatorKey);
-			// ExtentListeners.test.info("Error while finding an Element : " + locatorKey);
+			 log.info("Error while finding an Element : " + locatorKey);
+			 ExtentListeners.test.info("Error while finding an Element : " + locatorKey);
 
 			return false;
 
 		}
 
-		// log.info("Finding Presence of an Element : " + locatorKey);
-		// ExtentListeners.test.info("Finding Presence of an Element : " + locatorKey);
+		 log.info("Finding Presence of an Element : " + locatorKey);
+		 ExtentListeners.test.info("Finding Presence of an Element : " + locatorKey);
 
 		return true;
 
@@ -104,15 +101,13 @@ public class BaseTest {
 			driver.findElement(By.cssSelector(OR.getProperty(locatorKey))).sendKeys(value);
 
 		}
-		if (locatorKey.endsWith("_ID")) {
+		else if (locatorKey.endsWith("_ID")) {
 
 			driver.findElement(By.id(OR.getProperty(locatorKey))).sendKeys(value);
 
 		}
-		// log.info("Typing in an Element : " + locatorKey + " entered the value as : "
-		// + value);
-		// ExtentListeners.test.info("Typing in an Element : " + locatorKey + " entered
-		// the value as : " + value);
+		 log.info("Typing in an Element : " + locatorKey + " entered the value as : " + value);
+		 ExtentListeners.test.info("Typing in an Element : " + locatorKey + " entered the value as : " + value);
 
 	}
 
@@ -136,10 +131,8 @@ public class BaseTest {
 		Select select = new Select(dropdown);
 		select.selectByVisibleText(value);
 
-		// log.info("Selecting an Element : " + locatorKey + " and selected the value as
-		// : " + value);
-		// ExtentListeners.test.info("Selecting an Element : " + locatorKey + " and
-		// selected the value as : " + value);
+		 log.info("Selecting an Element : " + locatorKey + " and selected the value as : " + value);
+		 ExtentListeners.test.info("Selecting an Element : " + locatorKey + " and selected the value as : " + value);
 
 	}
 
@@ -203,7 +196,8 @@ public class BaseTest {
 
 			wait = new WebDriverWait(driver, Duration.ofSeconds(Integer.parseInt(config.getProperty("explicit.wait"))));
 
-			try {
+		/*try {
+			
 				DbManager.setMysqlDbConnection();
 				log.info("Database connection established !!!");
 			} catch (ClassNotFoundException e) {
@@ -213,7 +207,7 @@ public class BaseTest {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
-
+*/
 		}
 
 	}

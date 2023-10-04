@@ -5,8 +5,9 @@
   <meta charset='utf-8'>
   <title>TestNG reports</title>
 
-    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
-    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
     <script type="text/javascript" src="testng-reports.js"></script>
     <script type="text/javascript" src="https://www.google.com/jsapi"></script>
     <script type='text/javascript'>
@@ -23,8 +24,9 @@
   <body>
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -91,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">8 methods, 2 failed,  4 skipped,  2 passed</span>
+                    <span class="method-stats">10 methods, 1 failed,   9 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -102,44 +104,10 @@
                     <div class="method-list-content failed suite-TestNG_Framework">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-TestNG_Framework" title="testcases.FindNewCarsTest" class="method navigator-link" hash-for-method="findNewCarTest(chrome, Y, kia, Kia Cars)">findNewCarTest(chrome, Y, kia, Kia Cars)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-TestNG_Framework" title="testcases.FindNewCarsTest" class="method navigator-link" hash-for-method="findNewCarTest(chrome, Y, honda, Ho Cars)">findNewCarTest(chrome, Y, honda, Ho Cars)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-TestNG_Framework" title="testcases.FindNewCarsTest" class="method navigator-link" hash-for-method="findNewCarTest(chrome, Y, honda, Honda Cars)">findNewCarTest(chrome, Y, honda, Honda Cars)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-TestNG_Framework -->
-                  </li>
-                  <li>
-                    <span class="method-list-title skipped">Skipped methods</span>
-                    <span class="show-or-hide-methods skipped">
-                      <a href="#" panel-name="suite-TestNG_Framework" class="hide-methods skipped suite-TestNG_Framework"> (hide)</a> <!-- hide-methods skipped suite-TestNG_Framework -->
-                      <a href="#" panel-name="suite-TestNG_Framework" class="show-methods skipped suite-TestNG_Framework"> (show)</a> <!-- show-methods skipped suite-TestNG_Framework -->
-                    </span>
-                    <div class="method-list-content skipped suite-TestNG_Framework">
-                      <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-TestNG_Framework" title="testcases.CarNameAndPriceTest" class="method navigator-link" hash-for-method="carNameAndPrice(chrome, N, toyota)">carNameAndPrice(chrome, N, toyota)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-TestNG_Framework" title="testcases.CarNameAndPriceTest" class="method navigator-link" hash-for-method="carNameAndPrice(chrome, N, honda)">carNameAndPrice(chrome, N, honda)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-TestNG_Framework" title="testcases.CarNameAndPriceTest" class="method navigator-link" hash-for-method="carNameAndPrice(chrome, N, bmw)">carNameAndPrice(chrome, N, bmw)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-TestNG_Framework" title="testcases.CarNameAndPriceTest" class="method navigator-link" hash-for-method="carNameAndPrice(chrome, N, kia)">carNameAndPrice(chrome, N, kia)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content skipped suite-TestNG_Framework -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -150,12 +118,47 @@
                     <div class="method-list-content passed suite-TestNG_Framework">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-TestNG_Framework" title="testcases.FindNewCarsTest" class="method navigator-link" hash-for-method="findNewCarTest(chrome, Y, toyota, Toyota Cars)">findNewCarTest(chrome, Y, toyota, Toyota Cars)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-TestNG_Framework" title="testcases.CarNameAndPriceTest" class="method navigator-link" hash-for-method="carNameAndPrice(chrome, Y, honda)">carNameAndPrice(chrome, Y, honda)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestNG_Framework" title="testcases.CarNameAndPriceTest" class="method navigator-link" hash-for-method="carNameAndPrice(chrome, Y, kia)">carNameAndPrice(chrome, Y, kia)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestNG_Framework" title="testcases.CarNameAndPriceTest" class="method navigator-link" hash-for-method="carNameAndPrice(chrome, Y, tata)">carNameAndPrice(chrome, Y, tata)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestNG_Framework" title="testcases.CarNameAndPriceTest" class="method navigator-link" hash-for-method="carNameAndPrice(chrome, Y, toyota)">carNameAndPrice(chrome, Y, toyota)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestNG_Framework" title="testcases.CarNameAndPriceTest" class="method navigator-link" hash-for-method="carNameAndPrice(chrome, Y, bmw)">carNameAndPrice(chrome, Y, bmw)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestNG_Framework" title="testcases.FindNewCarsTest" class="method navigator-link" hash-for-method="findNewCarTest(chrome, Y, tata, Tata Cars)">findNewCarTest(chrome, Y, tata, Tata Cars)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-TestNG_Framework" title="testcases.FindNewCarsTest" class="method navigator-link" hash-for-method="findNewCarTest(chrome, Y, bmw, BMW Cars)">findNewCarTest(chrome, Y, bmw, BMW Cars)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestNG_Framework" title="testcases.FindNewCarsTest" class="method navigator-link" hash-for-method="findNewCarTest(chrome, Y, kia, Kia Cars)">findNewCarTest(chrome, Y, kia, Kia Cars)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestNG_Framework" title="testcases.FindNewCarsTest" class="method navigator-link" hash-for-method="findNewCarTest(chrome, Y, toyota, Toyota Cars)">findNewCarTest(chrome, Y, toyota, Toyota Cars)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-TestNG_Framework -->
@@ -178,19 +181,19 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="findNewCarTest(chrome, Y, kia, Kia Cars)">
-                  </a> <!-- findNewCarTest(chrome, Y, kia, Kia Cars) -->
+                  <a name="findNewCarTest(chrome, Y, honda, Honda Cars)">
+                  </a> <!-- findNewCarTest(chrome, Y, honda, Honda Cars) -->
                   <span class="method-name">findNewCarTest</span>
-                  <span class="parameters">(chrome, Y, kia, Kia Cars)</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[contains(text(),&apos;Find New Cars&apos;)]&quot;}
-  (Session info: chrome=116.0.5845.187)
+                  <span class="parameters">(chrome, Y, honda, Honda Cars)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;root&quot;]/div[2]/div/div[2]/div/h1&quot;}
+  (Session info: chrome=117.0.5938.134)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.12.1&apos;, revision: &apos;8e34639b11&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [1bc41c7d772fc1cf74ae3415f750e5d6, findElement {using=xpath, value=//div[contains(text(),&apos;Find New Cars&apos;)]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.187, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59268}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59268/devtoo..., se:cdpVersion: 116.0.5845.187, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 1bc41c7d772fc1cf74ae3415f750e5d6
+Command: [27b99da855b2b94a6216f7b30f73bb97, findElement {using=xpath, value=//*[@id=&quot;root&quot;]/div[2]/div/div[2]/div/h1}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.134, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56154}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56154/devtoo..., se:cdpVersion: 117.0.5938.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 27b99da855b2b94a6216f7b30f73bb97
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
@@ -204,84 +207,16 @@ Session ID: 1bc41c7d772fc1cf74ae3415f750e5d6
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy17.click(Unknown Source)
-	at pages.HomePage.goToFindNewCars(HomePage.java:41)
-	at testcases.FindNewCarsTest.findNewCarTest(FindNewCarsTest.java:31)
-... Removed 30 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="findNewCarTest(chrome, Y, honda, Ho Cars)">
-                  </a> <!-- findNewCarTest(chrome, Y, honda, Ho Cars) -->
-                  <span class="method-name">findNewCarTest</span>
-                  <span class="parameters">(chrome, Y, honda, Ho Cars)</span>
-                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
-	Title is not Matching expected [Ho Cars] but found [Honda Cars]
-	at testcases.FindNewCarsTest.findNewCarTest(FindNewCarsTest.java:61)
-... Removed 26 stack frames
+	at jdk.proxy2/jdk.proxy2.$Proxy17.getText(Unknown Source)
+	at base.CarBase.getCarTitle(CarBase.java:30)
+	at testcases.FindNewCarsTest.findNewCarTest(FindNewCarsTest.java:69)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-TestNG_Framework-class-failed -->
-          <div class="suite-TestNG_Framework-class-skipped">
-            <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
-              <span class="class-name">testcases.CarNameAndPriceTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="carNameAndPrice(chrome, N, toyota)">
-                  </a> <!-- carNameAndPrice(chrome, N, toyota) -->
-                  <span class="method-name">carNameAndPrice</span>
-                  <span class="parameters">(chrome, N, toyota)</span>
-                  <div class="stack-trace">org.testng.SkipException: Skipping the test as the run mode is No
-	at testcases.CarNameAndPriceTest.carNameAndPrice(CarNameAndPriceTest.java:19)
-... Removed 25 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="carNameAndPrice(chrome, N, honda)">
-                  </a> <!-- carNameAndPrice(chrome, N, honda) -->
-                  <span class="method-name">carNameAndPrice</span>
-                  <span class="parameters">(chrome, N, honda)</span>
-                  <div class="stack-trace">org.testng.SkipException: Skipping the test as the run mode is No
-	at testcases.CarNameAndPriceTest.carNameAndPrice(CarNameAndPriceTest.java:19)
-... Removed 25 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="carNameAndPrice(chrome, N, bmw)">
-                  </a> <!-- carNameAndPrice(chrome, N, bmw) -->
-                  <span class="method-name">carNameAndPrice</span>
-                  <span class="parameters">(chrome, N, bmw)</span>
-                  <div class="stack-trace">org.testng.SkipException: Skipping the test as the run mode is No
-	at testcases.CarNameAndPriceTest.carNameAndPrice(CarNameAndPriceTest.java:19)
-... Removed 25 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="carNameAndPrice(chrome, N, kia)">
-                  </a> <!-- carNameAndPrice(chrome, N, kia) -->
-                  <span class="method-name">carNameAndPrice</span>
-                  <span class="parameters">(chrome, N, kia)</span>
-                  <div class="stack-trace">org.testng.SkipException: Skipping the test as the run mode is No
-	at testcases.CarNameAndPriceTest.carNameAndPrice(CarNameAndPriceTest.java:19)
-... Removed 25 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-TestNG_Framework-class-skipped -->
           <div class="suite-TestNG_Framework-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -290,10 +225,10 @@ Session ID: 1bc41c7d772fc1cf74ae3415f750e5d6
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="findNewCarTest(chrome, Y, toyota, Toyota Cars)">
-                  </a> <!-- findNewCarTest(chrome, Y, toyota, Toyota Cars) -->
+                  <a name="findNewCarTest(chrome, Y, tata, Tata Cars)">
+                  </a> <!-- findNewCarTest(chrome, Y, tata, Tata Cars) -->
                   <span class="method-name">findNewCarTest</span>
-                  <span class="parameters">(chrome, Y, toyota, Toyota Cars)</span>
+                  <span class="parameters">(chrome, Y, tata, Tata Cars)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -302,6 +237,70 @@ Session ID: 1bc41c7d772fc1cf74ae3415f750e5d6
                   </a> <!-- findNewCarTest(chrome, Y, bmw, BMW Cars) -->
                   <span class="method-name">findNewCarTest</span>
                   <span class="parameters">(chrome, Y, bmw, BMW Cars)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="findNewCarTest(chrome, Y, kia, Kia Cars)">
+                  </a> <!-- findNewCarTest(chrome, Y, kia, Kia Cars) -->
+                  <span class="method-name">findNewCarTest</span>
+                  <span class="parameters">(chrome, Y, kia, Kia Cars)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="findNewCarTest(chrome, Y, toyota, Toyota Cars)">
+                  </a> <!-- findNewCarTest(chrome, Y, toyota, Toyota Cars) -->
+                  <span class="method-name">findNewCarTest</span>
+                  <span class="parameters">(chrome, Y, toyota, Toyota Cars)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestNG_Framework-class-passed -->
+          <div class="suite-TestNG_Framework-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.CarNameAndPriceTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="carNameAndPrice(chrome, Y, honda)">
+                  </a> <!-- carNameAndPrice(chrome, Y, honda) -->
+                  <span class="method-name">carNameAndPrice</span>
+                  <span class="parameters">(chrome, Y, honda)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="carNameAndPrice(chrome, Y, kia)">
+                  </a> <!-- carNameAndPrice(chrome, Y, kia) -->
+                  <span class="method-name">carNameAndPrice</span>
+                  <span class="parameters">(chrome, Y, kia)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="carNameAndPrice(chrome, Y, tata)">
+                  </a> <!-- carNameAndPrice(chrome, Y, tata) -->
+                  <span class="method-name">carNameAndPrice</span>
+                  <span class="parameters">(chrome, Y, tata)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="carNameAndPrice(chrome, Y, toyota)">
+                  </a> <!-- carNameAndPrice(chrome, Y, toyota) -->
+                  <span class="method-name">carNameAndPrice</span>
+                  <span class="parameters">(chrome, Y, toyota)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="carNameAndPrice(chrome, Y, bmw)">
+                  </a> <!-- carNameAndPrice(chrome, Y, bmw) -->
+                  <span class="method-name">carNameAndPrice</span>
+                  <span class="parameters">(chrome, Y, bmw)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -314,7 +313,7 @@ Session ID: 1bc41c7d772fc1cf74ae3415f750e5d6
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
-&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;TestNG Framework&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;listeners&gt;
     &lt;listener class-name=&quot;extentlisteners.ExtentListeners&quot;/&gt;
@@ -369,44 +368,52 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(8);
+data.addRows(10);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'findNewCarTest')
 data.setCell(0, 2, 'testcases.FindNewCarsTest')
-data.setCell(0, 3, 22418);
+data.setCell(0, 3, 30452);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'findNewCarTest')
-data.setCell(1, 2, 'testcases.FindNewCarsTest')
-data.setCell(1, 3, 18965);
+data.setCell(1, 1, 'carNameAndPrice')
+data.setCell(1, 2, 'testcases.CarNameAndPriceTest')
+data.setCell(1, 3, 30452);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'findNewCarTest')
 data.setCell(2, 2, 'testcases.FindNewCarsTest')
-data.setCell(2, 3, 16038);
+data.setCell(2, 3, 16538);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'findNewCarTest')
-data.setCell(3, 2, 'testcases.FindNewCarsTest')
-data.setCell(3, 3, 13598);
+data.setCell(3, 1, 'carNameAndPrice')
+data.setCell(3, 2, 'testcases.CarNameAndPriceTest')
+data.setCell(3, 3, 14228);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'carNameAndPrice')
 data.setCell(4, 2, 'testcases.CarNameAndPriceTest')
-data.setCell(4, 3, 42);
+data.setCell(4, 3, 13694);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'carNameAndPrice')
-data.setCell(5, 2, 'testcases.CarNameAndPriceTest')
-data.setCell(5, 3, 20);
+data.setCell(5, 1, 'findNewCarTest')
+data.setCell(5, 2, 'testcases.FindNewCarsTest')
+data.setCell(5, 3, 13160);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'carNameAndPrice')
 data.setCell(6, 2, 'testcases.CarNameAndPriceTest')
-data.setCell(6, 3, 9);
+data.setCell(6, 3, 13026);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'carNameAndPrice')
-data.setCell(7, 2, 'testcases.CarNameAndPriceTest')
-data.setCell(7, 3, 4);
+data.setCell(7, 1, 'findNewCarTest')
+data.setCell(7, 2, 'testcases.FindNewCarsTest')
+data.setCell(7, 3, 12725);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'findNewCarTest')
+data.setCell(8, 2, 'testcases.FindNewCarsTest')
+data.setCell(8, 3, 12505);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'carNameAndPrice')
+data.setCell(9, 2, 'testcases.CarNameAndPriceTest')
+data.setCell(9, 3, 12495);
 window.suiteTableData['TestNG_Framework']= { tableData: data, tableDiv: 'times-div-TestNG_Framework'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
               <div id="times-div-TestNG_Framework">
               </div> <!-- times-div-TestNG_Framework -->
             </div> <!-- times-div -->
@@ -439,74 +446,89 @@ return data;
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">18995 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">findNewCarTest(chrome, Y, honda, Ho Cars)</span>
-                <span class="method-start">19824 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">33807 ms</span>
+                <span class="method-start">16878 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">findNewCarTest(chrome, Y, toyota, Toyota Cars)</span>
-                <span class="method-start">34500 ms</span>
+                <span class="method-start">17452 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">50543 ms</span>
+                <span class="method-start">30889 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">findNewCarTest(chrome, Y, kia, Kia Cars)</span>
+                <span class="method-start">31385 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">44391 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">findNewCarTest(chrome, Y, kia, Kia Cars)</span>
-                <span class="method-start">51506 ms</span>
+                <span class="method-name">findNewCarTest(chrome, Y, honda, Honda Cars)</span>
+                <span class="method-start">44830 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">74234 ms</span>
+                <span class="method-start">75514 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">findNewCarTest(chrome, Y, tata, Tata Cars)</span>
+                <span class="method-start">76090 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">88922 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.CarNameAndPriceTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">carNameAndPrice(chrome, N, bmw)</span>
-                <span class="method-start">75948 ms</span>
+                <span class="method-name">carNameAndPrice(chrome, Y, bmw)</span>
+                <span class="method-start">90300 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">75962 ms</span>
+                <span class="method-start">104776 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
-                <span class="method-name">carNameAndPrice(chrome, N, honda)</span>
-                <span class="method-start">75962 ms</span>
+                <span class="method-name">carNameAndPrice(chrome, Y, honda)</span>
+                <span class="method-start">105297 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">76038 ms</span>
+                <span class="method-start">136004 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
-                <span class="method-name">carNameAndPrice(chrome, N, toyota)</span>
-                <span class="method-start">76039 ms</span>
+                <span class="method-name">carNameAndPrice(chrome, Y, toyota)</span>
+                <span class="method-start">136579 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">76085 ms</span>
+                <span class="method-start">150539 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
-                <span class="method-name">carNameAndPrice(chrome, N, kia)</span>
-                <span class="method-start">76086 ms</span>
+                <span class="method-name">carNameAndPrice(chrome, Y, kia)</span>
+                <span class="method-start">151043 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">76114 ms</span>
+                <span class="method-start">163784 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">carNameAndPrice(chrome, Y, tata)</span>
+                <span class="method-start">164234 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">177522 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
     </div> <!-- wrapper -->
   </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
 </html>
