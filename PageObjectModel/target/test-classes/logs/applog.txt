@@ -1,6 +1,0 @@
-INFO    2023-10-04 16:24:11,229 [main] base.BaseTest  - Test Execution started !!!
-INFO    2023-10-04 16:24:11,229 [main] base.BaseTest  - Config properties file loaded !!!
-INFO    2023-10-04 16:24:15,101 [main] base.BaseTest  - chrome browser launched
-INFO    2023-10-04 16:24:20,281 [main] base.BaseTest  - Navigated to : https://www.carwale.com/
-INFO    2023-10-04 16:24:20,410 [main] base.BaseTest  - Database connection established !!!
-INFO    2023-10-04 16:24:24,918 [main] base.BaseTest  - Test execution completed !!!
