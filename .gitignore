@@ -1,9 +1,18 @@
 /.metadata/
+/.metadata/.plugins/
 DataDriven/.settings
 DataDriven/reports
-DataDriven/target
+DataDriven/target/
 DataDriven/test-output
 *.classpath
 *.project
+PageObjectModel/.settings
+PageObjectModel/reports
+PageObjectModel/target/
 PageObjectModel/test-output
+PageObjectModel/target/test-classes/excel
+PageObjectModel/target/test-classes/runner
+PageObjectModel/target/test-classes/properties
+
+
 
